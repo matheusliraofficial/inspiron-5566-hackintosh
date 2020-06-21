@@ -1,7 +1,8 @@
 # Hackintosh - Dell Inspiron 5566
-<img src="https://i.imgur.com/3dH0tWw.png"/>
 Here are the EFI partition files for the Dell inspiron 5566 working fine with macOS Catalina 10.15.5.
 > I used the Olarila Catalina Distro to install the Catalina first, [download here](https://tinyurl.com/yajjxksw), after the first step of the installation, the notebook will restart to continue the installation, any error in this step is completely normal, you only have to restart the machine after the error message to continue the installation.
+
+<img src="https://i.imgur.com/3dH0tWw.png"/>
 
 ***The Olarila image is clean, without any mod with bootloader, essentials kexts and patches, ALL inside bootloader folder***
 
