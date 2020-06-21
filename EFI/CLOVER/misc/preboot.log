@@ -1,0 +1,1225 @@
+0:100  0:100  MemLog inited, TSC freq: 2304353200
+0:100  0:000  CPU was calibrated with RTC
+0:100  0:000  
+0:100  0:000  Now is 01.02.2020,  03:19:37 (GMT)
+0:100  0:000  Starting Clover revision: 5103 (master, commit 3f3b85da0) on American Megatrends EFI
+0:100  0:000  Build with: [Args: -D NO_GRUB_DRIVERS_EMBEDDED -t GCC53 | -D NO_GRUB_DRIVERS_EMBEDDED --conf=/Users/sergey/src/CloverHackyColor/Conf -D USE_LOW_EBDA -a X64 -b RELEASE -t GCC53 -n 5 | OS: 10.14.6]
+0:100  0:000  SelfDevicePath=PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,C1F213CB-0C4F-486E-A6EB-F007E61D2863,0x28,0x64000) @865FA598
+0:100  0:000  SelfDirPath = \EFI\CLOVER
+0:101  0:001  SimpleTextEx Status=Success
+0:101  0:000  === [ Get Smbios ] ========================================
+0:101  0:000  Type 16 Index = 0
+0:101  0:000  Total Memory Slots Count = 2
+0:101  0:000  Type 17 Index = 0
+0:101  0:000  SmbiosTable.Type17->Speed = 2400MHz
+0:101  0:000  SmbiosTable.Type17->Size = 8192MB
+0:101  0:000  SmbiosTable.Type17->Bank/Device =  DIMM A
+0:101  0:000  SmbiosTable.Type17->Vendor = 0198000080AD
+0:101  0:000  SmbiosTable.Type17->SerialNumber = 88200843
+0:101  0:000  SmbiosTable.Type17->PartNumber = 9905624-044.A00G    
+0:101  0:000  Type 17 Index = 1
+0:101  0:000  Ignoring insane frequency value 0MHz
+0:101  0:000  SmbiosTable.Type17->Speed = 0MHz
+0:101  0:000  SmbiosTable.Type17->Size = 0MB
+0:101  0:000  SmbiosTable.Type17->Bank/Device =  ChannelB-DIMM0
+0:101  0:000  SmbiosTable.Type17->Vendor = <null string>
+0:101  0:000  SmbiosTable.Type17->SerialNumber = <null string>
+0:101  0:000  SmbiosTable.Type17->PartNumber = <null string>
+0:101  0:000  Boot status=0
+0:101  0:000  Running on: 'Inspiron 3481' with board '05RCHV'
+0:101  0:000  === [ GetCPUProperties ] ==================================
+0:101  0:000  CPU Vendor = 756E6547 Model=806E9
+0:101  0:000   The CPU supported SSE4.1
+0:101  0:000  BrandString = Intel(R) Core(TM) i3-7020U CPU @ 2.30GHz
+0:101  0:000   The CPU not supported turbo
+0:101  0:000  MSR 0x35               20004
+0:101  0:000   TSC/CCC Information Leaf:
+0:101  0:000    numerator     : 192
+0:101  0:000    denominator   : 2
+0:101  0:000   Calibrated ARTFrequency: 24003679
+0:101  0:000   Rounded ARTFrequency: 24000000
+0:101  0:000  MSR 0xE2 before patch 1E008008
+0:101  0:000  MSR 0xE2 is locked, PM patches will be turned on
+0:101  0:000  MSR 0xCE              00040439_F1011700
+0:101  0:000  corrected FLEX_RATIO = 0
+0:101  0:000  MSR 0x1B0             00000000
+0:101  0:000  FSBFrequency = 100 MHz, DMI FSBFrequency = 100 MHz, Corrected FSBFrequency = 100 MHz
+0:101  0:000  MaxDiv/MinDiv: 23.0/4
+0:101  0:000  Turbo: 23/23/23/23
+0:101  0:000  Features: 0xBFEBFBFF
+0:101  0:000  Threads: 4
+0:101  0:000  Cores: 2
+0:101  0:000  FSB: 100 MHz
+0:101  0:000  CPU: 2300 MHz
+0:101  0:000  TSC: 2300 MHz
+0:101  0:000  PIS: 100 MHz
+0:101  0:000  ExternalClock: 25 MHz
+0:101  0:000  === [ GetDevices ] ========================================
+0:101  0:000  GOP found at: PciRoot(0x0)/Pci(0x2,0x0)/AcpiAdr(0x80011400)
+0:101  0:000  PCI (00|00:00.00) : 8086 5904 class=060000
+0:101  0:000  PCI (00|00:02.00) : 8086 5921 class=030000
+0:101  0:000   - GOP: Provided by device
+0:101  0:000   - GFX: Model=Intel Kaby Lake GT2F (Intel)
+0:101  0:000  PCI (00|00:04.00) : 8086 1903 class=118000
+0:101  0:000  PCI (00|00:14.00) : 8086 9D2F class=0C0330
+0:101  0:000  PCI (00|00:14.02) : 8086 9D31 class=118000
+0:101  0:000  PCI (00|00:15.00) : 8086 9D60 class=118000
+0:102  0:000  PCI (00|00:16.00) : 8086 9D3A class=078000
+0:102  0:000  PCI (00|00:17.00) : 8086 9D03 class=010601
+0:102  0:000  PCI (00|00:1C.00) : 8086 9D14 class=060400
+0:102  0:000  PCI (00|01:00.00) : 10EC 8136 class=020000
+0:102  0:000   - LAN: 0 Vendor=Realtek
+0:102  0:000  PCI (00|00:1C.05) : 8086 9D15 class=060400
+0:102  0:000  PCI (00|02:00.00) : 168C 0036 class=028000
+0:102  0:000   - WIFI: Vendor=Atheros
+0:102  0:000  PCI (00|00:1F.00) : 8086 9D4E class=060100
+0:102  0:000  PCI (00|00:1F.02) : 8086 9D21 class=058000
+0:102  0:000  PCI (00|00:1F.03) : 8086 9D71 class=040380
+0:102  0:000  PCI (00|00:1F.04) : 8086 9D23 class=0C0500
+0:102  0:000  === [ GetDefaultSettings ] ================================
+0:102  0:000  Clover load options size = 150 bytes
+0:173  0:070  CheckOEMPathExists tried EFI\CLOVER\OEM\Inspiron 3481--00-00-00-00-00-00. Dir not exists
+0:173  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\05RCHV\UEFI. Dir not exists
+0:174  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\Inspiron 3481. Dir not exists
+0:174  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\Inspiron 3481-2300. Dir not exists
+0:175  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\05RCHV. Dir not exists
+0:175  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\05RCHV-2300. Dir not exists
+0:175  0:000  set OEMPath by default: EFI\CLOVER
+0:177  0:001  EFI\CLOVER\.plist not loaded with name from LoadOptions: Invalid Parameter
+0:177  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\Inspiron 3481--00-00-00-00-00-00. Dir not exists
+0:178  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\05RCHV\UEFI. Dir not exists
+0:178  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\Inspiron 3481. Dir not exists
+0:179  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\Inspiron 3481-2300. Dir not exists
+0:179  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\05RCHV. Dir not exists
+0:180  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\05RCHV-2300. Dir not exists
+0:180  0:000  set OEMPath by default: EFI\CLOVER
+0:205  0:025  EFI\CLOVER\config.plist loaded: Success
+0:205  0:000  === [ GetListOfThemes ] ===================================
+0:207  0:001  - [00]: BGM
+0:247  0:040  - [01]: cesium
+0:279  0:031  - [02]: christmas
+0:296  0:016  - [03]: Clovy
+0:310  0:013  - [04]: Dell
+0:332  0:021  - [05]: embedded
+0:345  0:013  - [05]: metal
+0:380  0:035  - [06]: Mojave
+0:409  0:029  - [07]: newyear
+0:418  0:009  - [08]: random
+0:422  0:003  === [ Found config plists ] ===============================
+0:423  0:001  - config.plist
+0:445  0:022  === [ GetEarlyUserSettings ] ==============================
+0:445  0:000  timeout set to 5
+0:463  0:017  Custom boot logo not found at path `true`!
+0:463  0:000  Custom boot CUSTOM_BOOT_USER (0x0)
+0:463  0:000  ForceKextsToLoad: 1 requested
+0:463  0:000   - [0]: System\Library\Extensions\IONetworkingFamily.kext
+0:463  0:000  KextsToPatch: 9 requested
+0:463  0:000   - [00]: com.apple.driver.AppleBacklight (change F%uT%04x to F%uTxxxx in AppleBacklightInjector.kext (credit RehabMan)) :: BinPatch :: data len: 9
+0:463  0:000   - [01]: AppleIntelLpssI2C (Disable AppleIntelLpssI2C (credit by Coolstar)) :: BinPatch :: data len: 5
+0:463  0:000   - [02]: AppleIntelLpssI2CController (Disable AppleIntelLpssI2CController (credit by Coolstar)) :: BinPatch :: data len: 5
+0:463  0:000   - [03]: com.apple.driver.AppleIntelKBLGraphicsFramebuffer (Disable minStolenSize less or equal fStolenMemorySize assertion, 10.14 (credit Austere.J)) :: MatchOS: 10.14.x :: BinPatch :: data len: 8
+0:463  0:000   - [04]: com.apple.driver.usb.AppleUSBXHCI (disable port limit in XHCI kext (credit PMHeart)) :: MatchOS: 10.14.x :: BinPatch :: data len: 9
+0:463  0:000   - [05]: com.apple.iokit.IOUSBHostFamily (USB Port limit patch #1(credits PMheart)) :: MatchOS: 10.15.x :: BinPatch :: data len: 4
+0:463  0:000   - [06]: com.apple.driver.usb.AppleUSBXHCI (USB Port limit patch #2(credits PMheart)) :: MatchOS: 10.15.x :: BinPatch :: data len: 4
+0:463  0:000   - [07]: com.apple.driver.AppleSDXC (Card Reader Info.plist) :: BinPatch :: data len: 29
+0:463  0:000   - patch disabled at config
+0:463  0:000   - [08]: com.apple.driver.AppleSDXC (Micro Inc. SD Card Reader Binary- pci14e4,16bc -> pci0316,0bda) :: PlistPatch :: data len: 12
+0:463  0:000   - patch disabled at config
+0:463  0:000  KernelToPatch: 2 requested
+0:463  0:000   - [00]: MSR 0xE2 _xcpm_idle instant reboot(c) Pike R. Alpha :: data len: 8
+0:463  0:000   - [01]: Disable panic kext logging on 10.14 release kernel (credit vit9696) :: MatchOS: 10.14.x :: data len: 6
+0:463  0:000  Default theme: Mojave
+0:463  0:000  Hiding entries with string Preboot
+0:463  0:000  Hiding entries with string Recovery
+0:463  0:000  === [ LoadDrivers ] =======================================
+0:492  0:028  Loading ApfsDriverLoader.efi  status=Success
+0:516  0:024   - driver needs connecting
+0:516  0:000  Loading AppleImageLoader.efi  status=Success
+0:520  0:003  Loading AppleUiSupport.efi  status=Success
+0:638  0:118  Loading AptioInputFix.efi  status=Success
+0:642  0:004  Loading AptioMemoryFix.efi  status=Success
+0:660  0:018  Loading AudioDxe.efi  status=Success
+0:665  0:004   - driver needs connecting
+0:681  0:016  Loading CsmVideoDxe.efi  status=Success
+0:702  0:021   - driver needs connecting
+0:702  0:000  Loading DataHubDxe.efi  status=Success
+0:718  0:015  Loading Fat.efi  status=Success
+0:722  0:003   - driver needs connecting
+0:722  0:000  Loading FSInject.efi  status=Success
+0:738  0:016  Loading HFSPlus.efi  status=Success
+0:751  0:012   - driver needs connecting
+0:751  0:000  Loading OsxFatBinaryDrv.efi  status=Success
+0:755  0:004  Loading PartitionDxe.efi  status=Success
+0:759  0:004   - driver needs connecting
+0:759  0:000  Loading Ps2MouseDxe.efi  status=Success
+0:763  0:004   - driver needs connecting
+0:763  0:000  Loading SMCHelper.efi  status=Success
+0:780  0:017  Loading UsbKbDxe.efi  status=Success
+0:784  0:003   - driver needs connecting
+0:784  0:000  Loading UsbMouseDxe.efi  status=Success
+0:787  0:003   - driver needs connecting
+0:787  0:000  Loading VBoxExt2.efi  status=Success
+0:794  0:006   - driver needs connecting
+0:794  0:000  Loading VBoxExt4.efi  status=Success
+0:810  0:016   - driver needs connecting
+0:811  0:000  11 drivers needs connecting ...
+0:811  0:000  PlatformDriverOverrideProtocol->GetDriver overriden
+0:811  0:000  Partition driver loaded: 
+0:811  0:000  HFS+ driver loaded
+0:811  0:000  APFS driver loaded
+0:811  0:000  Video driver loaded: disconnect Success
+2:048  1:237  Searching for invalid DiskIo BY_DRIVER connects: not found, all ok
+7:892  5:843  === [ InitScreen ] ========================================
+7:892  0:000  Console modes reported: 4, available modes:
+7:892  0:000   - [01]: 80x25
+7:892  0:000   - [03]: 100x31
+7:892  0:000   - [04]: 170x40 (current mode)
+7:892  0:000  SetScreenResolution: 1366x768 - already set
+7:892  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,C1F213CB-0C4F-486E-A6EB-F007E61D2863,0x28,0x64000)
+7:895  0:002  Using embedded font: Success
+7:896  0:001  === [ GetMacAddress ] =====================================
+7:896  0:000  MAC address of LAN #0= D0:94:66:B2:58:A6:
+7:896  0:000  MAC address of LAN #1= D0:94:66:B2:58:A6:
+7:896  0:000  MAC address of LAN #2= D0:94:66:B2:58:A6:
+7:896  0:000  MAC address of LAN #3= D0:94:66:B2:58:A6:
+7:896  0:000  === [ ScanSPD ] ===========================================
+7:897  0:000  Scanning SMBus [8086:9D23], mmio: 0xD1232004, ioport: 0xF040, hostc: 0x11
+7:915  0:018  Slot: 0 Type 26 8192MB 2400MHz Vendor=Kingston PartNo=9905624-044.A00G SerialNo=0808020000080403
+7:916  0:001  === [ GetAcpiTablesList ] =================================
+7:916  0:000  Get Acpi Tables List from RSDT:
+7:916  0:000   - [00]: FACP  CBX3    len=132
+7:916  0:000   - [01]: APIC  CBX3    len=132
+7:916  0:000   - [02]: FPDT  CBX3    len=68
+7:916  0:000   - [03]: FIDT  CBX3    len=172
+7:916  0:000   - [04]: MCFG  CBX3    len=60
+7:916  0:000   - [05]: HPET  CBX3    len=56
+7:916  0:000   - [06]: SSDT  SataTabl len=857
+7:916  0:000   - [07]: BOOT  CBX3     len=40
+7:916  0:000   - [08]: SSDT  SaSsdt  len=4832
+7:916  0:000   - [09]: HPET  KBL-ULT len=56
+7:916  0:000   - [10]: SSDT  xh_OEMBD len=1888
+7:916  0:000   - [11]: UEFI   len=66
+7:916  0:000   - [12]: SSDT  CpuSsdt len=6062
+7:916  0:000   - [13]: LPIT  KBL-ULT len=148
+7:916  0:000   - [14]: SSDT  HdaDsp len=353
+7:916  0:000   - [15]: SSDT  sensrhub len=671
+7:916  0:000   - [16]: SSDT  PtidDevc len=12290
+7:916  0:000   - [17]: SSDT  TbtTypeC len=1303
+7:916  0:000   - [18]: SSDT  Wwan len=745
+7:916  0:000   - [19]: DBGP   len=52
+7:916  0:000   - [20]: DBG2   len=84
+7:916  0:000   - [21]: SSDT  UsbCTabl len=2013
+7:916  0:000   - [22]: SSDT  DptfTabl len=32593
+7:916  0:000   - [23]: NHLT  EDK2     len=45
+7:916  0:000   - [24]: BGRT   len=56
+7:916  0:000  Calibrated TSC Frequency = 2304353200 = 2304MHz
+7:917  0:000  === [ GetUserSettings ] ===================================
+7:917  0:000  Add 1 devices:
+7:917  0:000  USB FixOwnership: yes
+7:917  0:000  Dropping 3 tables:
+7:917  0:000   - [00]: Drop table  signature="#MCF" (46434D23)
+7:917  0:000           - set table: 46434D23,                0 to drop: no
+7:917  0:000   - [01]: Drop table  signature="DMAR" (52414D44)
+7:917  0:000           - set table: 52414D44,                0 to drop: no
+7:917  0:000   - [02]: Drop table  signature="SSDT" (54445353) table-id="xh_rvp10" (30317076725F6878)
+7:917  0:000           - set table: 54445353, 30317076725F6878 to drop: no
+7:917  0:000   - final DSDT Fix mask=10061050
+7:917  0:000  PatchesDSDT: 15 requested
+7:917  0:000   - [00]: (change OSID to XSID) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+7:917  0:000    patch disabled at config
+7:917  0:000   - [01]: (change _OSI to XOSI) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+7:917  0:000    patch disabled at config
+7:917  0:000   - [02]: (change _DSM to XDSM) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+7:917  0:000    patch disabled at config
+7:917  0:000   - [03]: (change EC0 to EC) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+7:917  0:000    patch disabled at config
+7:917  0:000   - [04]: (change H_EC to EC) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+7:917  0:000    patch disabled at config
+7:917  0:000   - [05]: (change ECDV to EC) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+7:917  0:000    patch disabled at config
+7:917  0:000   - [06]: (change AZAL to HDEF) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+7:917  0:000   - [07]: (change GFX0 to IGPU) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+7:917  0:000   - [08]: (change HDAS to HDEF) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+7:917  0:000   - [09]: (change HECI to IMEI) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+7:917  0:000   - [10]: (change MEI to IMEI) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+7:917  0:000   - [11]: (SAT0 to SATA) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+7:917  0:000   - [12]: (GLAN to GIGE) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+7:917  0:000   - [13]: (Fix bug SKL+) lenToFind: 8, lenToReplace: 8, Target Bridge: <null string>
+7:917  0:000   - [14]: (change LPC to LPCB) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+7:917  0:000  Using ProductName from config: MacBookPro14,1
+7:917  0:000  Using latest BiosVersion from clover
+7:917  0:000  BiosVersion: MBP141.88Z.F000.B00.1910301943
+7:917  0:000  BiosReleaseDate: 10/30/2019
+7:917  0:000  Using latest EfiVersion from clover: 203.0.0.0.0
+7:917  0:000  Using FirmwareFeatures from config: 0xFC0FE137
+7:917  0:000  Using FirmwareFeaturesMask from config: 0xFF1FFF3F
+7:917  0:000  Board-ID set from config as Mac-B4831CEBD52A0C4C
+7:917  0:000  BoardType: 0xA
+7:917  0:000  ChassisType: 0x9
+7:917  0:000  Converted CustomUUID F44FA2F6-A00C-59E4-9AAE-04E50AFB46C8
+7:921  0:003  === [ Found DSDT tables ] =================================
+7:963  0:041  - DSDT.aml
+9:694  1:731  === [ ScanVolumes ] =======================================
+9:694  0:000  Found 13 volumes with blockIO
+9:694  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x5,0x0)
+9:694  0:000          USB volume
+9:694  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)
+9:695  0:000          Result of bootcode detection: bootable unknown (legacy)
+9:695  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,C1F213CB-0C4F-486E-A6EB-F007E61D2863,0x28,0x64000)
+9:695  0:000          Result of bootcode detection: bootable unknown (legacy)
+9:708  0:013          This is SelfVolume !!
+9:708  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)
+9:709  0:000          Result of bootcode detection: bootable unknown (legacy)
+9:709  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(3,GPT,30987FAD-9A56-4056-9348-2E6BDD1DDE81,0x3A3F7000,0x8000)
+9:710  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(4,GPT,6E8D61DB-FAC2-4FCF-85F8-B00E994577D9,0x3A3FF000,0x18FF8000)
+9:727  0:017          Result of bootcode detection: bootable Windows (vista,win)
+9:727  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(5,GPT,A8BAEA1A-BF78-4349-A5D2-C639C5C5DDF8,0x533F7000,0xE90A000)
+9:728  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(6,GPT,152C5198-3586-4F65-98AE-9462E2F5AEAF,0x61D01000,0x129C5800)
+9:729  0:000          Result of bootcode detection: bootable unknown (legacy)
+9:729  0:000  - [08]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,138DC8E4152A5D44B2E67E07BC9DE3FD)
+9:729  0:000          hiding this volume
+9:729  0:000  - [09]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,7729CF04CADD2C4DB29644B030C01A99)
+9:729  0:000  - [10]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,0B98DAC81C7A904E890253427FF1CCEE)
+9:729  0:000          hiding this volume
+9:729  0:000  - [11]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,BDB8A1848E902D4C82392CBF7495741A)
+9:729  0:000  - [12]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,466752A6A6A7034782FBDEE3A41A4E18)
+9:729  0:000  found 2 handles with audio
+9:729  0:000  No AudioIoDevice stored
+9:729  0:000  no stored audio parameters
+9:729  0:000  Found Audio Device Realtek ALC256 (Speaker) at index 0
+9:729  0:000  Found Audio Device Realtek ALC256 (Headphones) at index 1
+9:729  0:000  Found Audio Device Intel Kaby Lake HDMI (HDMI) at index 2
+9:729  0:000  === [ InitTheme ] =========================================
+9:729  0:000  use night theme
+9:745  0:015  Using theme 'Mojave' (EFI\CLOVER\themes\Mojave)
+9:745  0:000  OS main and drive as badge
+9:771  0:026    Channels: 1  Sample rate: 44100 Hz  Bits: 16
+9:771  0:000  output to channel 0 with volume 70, len=228736
+9:771  0:000   sound channels=1 bits=16 freq=44100
+9:771  0:000  not found AudioIo to play
+9:771  0:000  free sound
+9:771  0:000  sound play end with status=Not Found
+9:785  0:013    Channels: 1  Sample rate: 44100 Hz  Bits: 16
+9:785  0:000  output to channel 0 with volume 70, len=228736
+9:785  0:000   sound channels=1 bits=16 freq=44100
+9:785  0:000  not found AudioIo to play
+9:785  0:000  free sound
+9:785  0:000  sound play end with status=Not Found
+9:793  0:007  Loading font from ThemeDir: Success
+9:793  0:000  theme inited
+9:793  0:000  Chosen theme Mojave
+9:793  0:000  after NVRAM boot-args=dart=0 nv_disable=1 -disablegfxfirmware -cdfon -igfxnohdmi -no_compat_check lilucpu=9 darkwake=0 kext-dev-mode=1 debug=0x100 -v
+9:793  0:000  === [ Dump SMC keys from NVRAM ] ==========================
+9:793  0:000  found AppleSMC protocol
+9:818  0:024  Registered 17 SMC keys
+9:821  0:002  === [ AddCustomEntries ] ==================================
+9:821  0:000  Custom entry 0 FullTitle:"macOS Catalina" Path:"\System\Library\CoreServices\boot.efi" Type:1 Flags:0x6 matching Volume:"BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE"
+9:821  0:000      Checking volume "EFI" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,C1F213CB-0C4F-486E-A6EB-F007E61D2863,0x28,0x64000)) ... skipped
+9:821  0:000      Checking volume "Windows" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(4,GPT,6E8D61DB-FAC2-4FCF-85F8-B00E994577D9,0x3A3FF000,0x18FF8000)) ... skipped
+9:821  0:000      Checking volume "Preboot" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,138DC8E4152A5D44B2E67E07BC9DE3FD)) ... skipped because volume is hidden
+9:821  0:000      Checking volume "macOS - Dados" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,7729CF04CADD2C4DB29644B030C01A99)) ... skipped because path does not exist
+9:897  0:075      Checking volume "Recovery" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,0B98DAC81C7A904E890253427FF1CCEE)) ... skipped because volume is hidden
+9:897  0:000      Checking volume "VM" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,BDB8A1848E902D4C82392CBF7495741A)) ... skipped because path does not exist
+9:897  0:000      Checking volume "macOS" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,466752A6A6A7034782FBDEE3A41A4E18)) ... match!
+10:119  0:222      hibernated: set as never
+10:164  0:044  Custom settings: <null string>.plist will  be applied
+10:166  0:002  Custom entry 1 FullTitle:"Windows 10" Path:"\EFI\Microsoft\Boot\bootmgfw.efi" Options:"-s -h" Type:7 Flags:0x0 matching Volume:"C1F213CB-0C4F-486E-A6EB-F007E61D2863"
+10:166  0:000      Checking volume "EFI" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,C1F213CB-0C4F-486E-A6EB-F007E61D2863,0x28,0x64000)) ... match!
+10:263  0:096  Custom settings: <null string>.plist will  be applied
+10:263  0:000      Checking volume "Windows" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(4,GPT,6E8D61DB-FAC2-4FCF-85F8-B00E994577D9,0x3A3FF000,0x18FF8000)) ... skipped
+10:263  0:000      Checking volume "Preboot" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,138DC8E4152A5D44B2E67E07BC9DE3FD)) ... skipped because volume is hidden
+10:263  0:000      Checking volume "macOS - Dados" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,7729CF04CADD2C4DB29644B030C01A99)) ... skipped
+10:263  0:000      Checking volume "Recovery" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,0B98DAC81C7A904E890253427FF1CCEE)) ... skipped because volume is hidden
+10:263  0:000      Checking volume "VM" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,BDB8A1848E902D4C82392CBF7495741A)) ... skipped
+10:263  0:000      Checking volume "macOS" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,466752A6A6A7034782FBDEE3A41A4E18)) ... skipped
+10:263  0:000  Custom entry 2 FullTitle:"Ubuntu" Path:"\EFI\ubuntu\shimx64.efi" Type:4 Flags:0x0 matching Volume:"C1F213CB-0C4F-486E-A6EB-F007E61D2863"
+10:263  0:000      Checking volume "EFI" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,C1F213CB-0C4F-486E-A6EB-F007E61D2863,0x28,0x64000)) ... match!
+10:299  0:035  Custom settings: <null string>.plist will  be applied
+10:299  0:000      Checking volume "Windows" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(4,GPT,6E8D61DB-FAC2-4FCF-85F8-B00E994577D9,0x3A3FF000,0x18FF8000)) ... skipped
+10:299  0:000      Checking volume "Preboot" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,138DC8E4152A5D44B2E67E07BC9DE3FD)) ... skipped because volume is hidden
+10:299  0:000      Checking volume "macOS - Dados" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,7729CF04CADD2C4DB29644B030C01A99)) ... skipped
+10:299  0:000      Checking volume "Recovery" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,0B98DAC81C7A904E890253427FF1CCEE)) ... skipped because volume is hidden
+10:299  0:000      Checking volume "VM" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,BDB8A1848E902D4C82392CBF7495741A)) ... skipped
+10:299  0:000      Checking volume "macOS" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,466752A6A6A7034782FBDEE3A41A4E18)) ... skipped
+10:299  0:000  Entry scan disabled
+10:299  0:000  === [ AddCustomTool ] =====================================
+10:305  0:005  found tool \EFI\CLOVER\tools\Shell64U.efi
+10:305  0:000  Checking EFI partition Volume 2 for Clover
+10:308  0:003   Found Clover
+10:320  0:011  === [ GetEfiBootDeviceFromNvram ] =========================
+10:320  0:000   - efi-boot-device-data: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,C1F213CB-0C4F-486E-A6EB-F007E61D2863,0x28,0x64000)\EFI\ubuntu\shimx64.efii
+10:320  0:000    - Volume: 'PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,C1F213CB-0C4F-486E-A6EB-F007E61D2863,0x28,0x64000)'
+10:320  0:000    - LoaderPath: '\EFI\ubuntu\shimx64.efi'
+10:320  0:000    - Guid = C1F213CB-0C4F-486E-A6EB-F007E61D2863
+10:320  0:000  === [ FindStartupDiskVolume ] =============================
+10:320  0:000    - Volume: partition = PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,C1F213CB-0C4F-486E-A6EB-F007E61D2863,0x28,0x64000)
+10:320  0:000     - searching for that partition and loader '\EFI\ubuntu\shimx64.efi'
+10:320  0:000      - found entry 2. 'Ubuntu', Volume 'EFI', '\EFI\ubuntu\shimx64.efi'
+10:320  0:000  Boot redirected to Entry 2. 'Ubuntu'
+10:320  0:000  DefaultIndex=2 and MainMenu.EntryCount=9
+10:646  0:325  GUI ready
+12:034  1:388  exit from MainMenu 8
+12:039  0:004  ReinitSelfLib after theme change
+12:039  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,C1F213CB-0C4F-486E-A6EB-F007E61D2863,0x28,0x64000)
+12:041  0:002  === [ ScanVolumes ] =======================================
+12:041  0:000  Found 13 volumes with blockIO
+12:041  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x5,0x0)
+12:041  0:000          USB volume
+12:041  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)
+12:042  0:000          Result of bootcode detection: bootable unknown (legacy)
+12:042  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,C1F213CB-0C4F-486E-A6EB-F007E61D2863,0x28,0x64000)
+12:043  0:001          Result of bootcode detection: bootable unknown (legacy)
+12:045  0:002          This is SelfVolume !!
+12:045  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)
+12:045  0:000          Result of bootcode detection: bootable unknown (legacy)
+12:045  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(3,GPT,30987FAD-9A56-4056-9348-2E6BDD1DDE81,0x3A3F7000,0x8000)
+12:046  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(4,GPT,6E8D61DB-FAC2-4FCF-85F8-B00E994577D9,0x3A3FF000,0x18FF8000)
+12:047  0:001          Result of bootcode detection: bootable Windows (vista,win)
+12:047  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(5,GPT,A8BAEA1A-BF78-4349-A5D2-C639C5C5DDF8,0x533F7000,0xE90A000)
+12:048  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(6,GPT,152C5198-3586-4F65-98AE-9462E2F5AEAF,0x61D01000,0x129C5800)
+12:048  0:000          Result of bootcode detection: bootable unknown (legacy)
+12:048  0:000  - [08]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,138DC8E4152A5D44B2E67E07BC9DE3FD)
+12:048  0:000  - [09]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,7729CF04CADD2C4DB29644B030C01A99)
+12:048  0:000  - [10]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,0B98DAC81C7A904E890253427FF1CCEE)
+12:048  0:000  - [11]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,BDB8A1848E902D4C82392CBF7495741A)
+12:048  0:000  - [12]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,466752A6A6A7034782FBDEE3A41A4E18)
+12:049  0:000  found 2 handles with audio
+12:049  0:000  No AudioIoDevice stored
+12:049  0:000  no stored audio parameters
+12:049  0:000  Found Audio Device Realtek ALC256 (Speaker) at index 0
+12:049  0:000  Found Audio Device Realtek ALC256 (Headphones) at index 1
+12:049  0:000  Found Audio Device Intel Kaby Lake HDMI (HDMI) at index 2
+12:049  0:000  theme inited
+12:049  0:000  Chosen theme Mojave
+12:049  0:000  after NVRAM boot-args=dart=0 nv_disable=1 -disablegfxfirmware -cdfon -igfxnohdmi -no_compat_check lilucpu=9 darkwake=0 kext-dev-mode=1 debug=0x100 -v
+12:049  0:000  === [ AddCustomEntries ] ==================================
+12:049  0:000  Custom entry 0 FullTitle:"macOS Catalina" Path:"\System\Library\CoreServices\boot.efi" Type:1 Flags:0x6 matching Volume:"BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE"
+12:049  0:000      Checking volume "EFI" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,C1F213CB-0C4F-486E-A6EB-F007E61D2863,0x28,0x64000)) ... skipped
+12:049  0:000      Checking volume "Windows" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(4,GPT,6E8D61DB-FAC2-4FCF-85F8-B00E994577D9,0x3A3FF000,0x18FF8000)) ... skipped
+12:049  0:000      Checking volume "Preboot" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,138DC8E4152A5D44B2E67E07BC9DE3FD)) ... skipped because path does not exist
+12:049  0:000      Checking volume "macOS - Dados" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,7729CF04CADD2C4DB29644B030C01A99)) ... skipped because path does not exist
+12:049  0:000      Checking volume "Recovery" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,0B98DAC81C7A904E890253427FF1CCEE)) ... skipped because path does not exist
+12:049  0:000      Checking volume "VM" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,BDB8A1848E902D4C82392CBF7495741A)) ... skipped because path does not exist
+12:049  0:000      Checking volume "macOS" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,466752A6A6A7034782FBDEE3A41A4E18)) ... match!
+12:050  0:001      hibernated: set as never
+12:053  0:002  Custom settings: <null string>.plist will  be applied
+12:057  0:003  Custom entry 1 FullTitle:"Windows 10" Path:"\EFI\Microsoft\Boot\bootmgfw.efi" Options:"-s -h" Type:7 Flags:0x0 matching Volume:"C1F213CB-0C4F-486E-A6EB-F007E61D2863"
+12:057  0:000      Checking volume "EFI" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,C1F213CB-0C4F-486E-A6EB-F007E61D2863,0x28,0x64000)) ... match!
+12:064  0:006  Custom settings: <null string>.plist will  be applied
+12:064  0:000      Checking volume "Windows" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(4,GPT,6E8D61DB-FAC2-4FCF-85F8-B00E994577D9,0x3A3FF000,0x18FF8000)) ... skipped
+12:064  0:000      Checking volume "Preboot" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,138DC8E4152A5D44B2E67E07BC9DE3FD)) ... skipped
+12:064  0:000      Checking volume "macOS - Dados" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,7729CF04CADD2C4DB29644B030C01A99)) ... skipped
+12:064  0:000      Checking volume "Recovery" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,0B98DAC81C7A904E890253427FF1CCEE)) ... skipped
+12:064  0:000      Checking volume "VM" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,BDB8A1848E902D4C82392CBF7495741A)) ... skipped
+12:064  0:000      Checking volume "macOS" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,466752A6A6A7034782FBDEE3A41A4E18)) ... skipped
+12:064  0:000  Custom entry 2 FullTitle:"Ubuntu" Path:"\EFI\ubuntu\shimx64.efi" Type:4 Flags:0x0 matching Volume:"C1F213CB-0C4F-486E-A6EB-F007E61D2863"
+12:064  0:000      Checking volume "EFI" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,C1F213CB-0C4F-486E-A6EB-F007E61D2863,0x28,0x64000)) ... match!
+12:069  0:004  Custom settings: <null string>.plist will  be applied
+12:069  0:000      Checking volume "Windows" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(4,GPT,6E8D61DB-FAC2-4FCF-85F8-B00E994577D9,0x3A3FF000,0x18FF8000)) ... skipped
+12:069  0:000      Checking volume "Preboot" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,138DC8E4152A5D44B2E67E07BC9DE3FD)) ... skipped
+12:069  0:000      Checking volume "macOS - Dados" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,7729CF04CADD2C4DB29644B030C01A99)) ... skipped
+12:069  0:000      Checking volume "Recovery" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,0B98DAC81C7A904E890253427FF1CCEE)) ... skipped
+12:069  0:000      Checking volume "VM" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,BDB8A1848E902D4C82392CBF7495741A)) ... skipped
+12:069  0:000      Checking volume "macOS" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,466752A6A6A7034782FBDEE3A41A4E18)) ... skipped
+12:069  0:000  Entry scan disabled
+12:069  0:000  === [ AddCustomTool ] =====================================
+12:070  0:001  found tool \EFI\CLOVER\tools\Shell64U.efi
+12:070  0:000  Checking EFI partition Volume 2 for Clover
+12:075  0:004   Found Clover
+12:075  0:000  === [ GetEfiBootDeviceFromNvram ] =========================
+12:075  0:000  === [ FindStartupDiskVolume ] =============================
+12:075  0:000    - Volume: partition = PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,C1F213CB-0C4F-486E-A6EB-F007E61D2863,0x28,0x64000)
+12:075  0:000     - searching for that partition and loader '\EFI\ubuntu\shimx64.efi'
+12:075  0:000      - found entry 2. 'Ubuntu', Volume 'EFI', '\EFI\ubuntu\shimx64.efi'
+12:075  0:000  Boot redirected to Entry 2. 'Ubuntu'
+12:075  0:000  DefaultIndex=2 and MainMenu.EntryCount=9
+16:963  4:888  exit from MainMenu 8
+16:966  0:002  ReinitSelfLib after theme change
+16:966  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,C1F213CB-0C4F-486E-A6EB-F007E61D2863,0x28,0x64000)
+16:969  0:003  === [ ScanVolumes ] =======================================
+16:969  0:000  Found 13 volumes with blockIO
+16:969  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x5,0x0)
+16:969  0:000          USB volume
+16:969  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)
+16:970  0:000          Result of bootcode detection: bootable unknown (legacy)
+16:970  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,C1F213CB-0C4F-486E-A6EB-F007E61D2863,0x28,0x64000)
+16:970  0:000          Result of bootcode detection: bootable unknown (legacy)
+16:975  0:004          This is SelfVolume !!
+16:975  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)
+16:975  0:000          Result of bootcode detection: bootable unknown (legacy)
+16:975  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(3,GPT,30987FAD-9A56-4056-9348-2E6BDD1DDE81,0x3A3F7000,0x8000)
+16:976  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(4,GPT,6E8D61DB-FAC2-4FCF-85F8-B00E994577D9,0x3A3FF000,0x18FF8000)
+16:976  0:000          Result of bootcode detection: bootable Windows (vista,win)
+16:976  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(5,GPT,A8BAEA1A-BF78-4349-A5D2-C639C5C5DDF8,0x533F7000,0xE90A000)
+16:977  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(6,GPT,152C5198-3586-4F65-98AE-9462E2F5AEAF,0x61D01000,0x129C5800)
+16:978  0:000          Result of bootcode detection: bootable unknown (legacy)
+16:978  0:000  - [08]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,138DC8E4152A5D44B2E67E07BC9DE3FD)
+16:978  0:000          hiding this volume
+16:978  0:000  - [09]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,7729CF04CADD2C4DB29644B030C01A99)
+16:978  0:000  - [10]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,0B98DAC81C7A904E890253427FF1CCEE)
+16:978  0:000          hiding this volume
+16:978  0:000  - [11]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,BDB8A1848E902D4C82392CBF7495741A)
+16:978  0:000  - [12]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,466752A6A6A7034782FBDEE3A41A4E18)
+16:978  0:000  found 2 handles with audio
+16:978  0:000  No AudioIoDevice stored
+16:978  0:000  no stored audio parameters
+16:978  0:000  Found Audio Device Realtek ALC256 (Speaker) at index 0
+16:978  0:000  Found Audio Device Realtek ALC256 (Headphones) at index 1
+16:978  0:000  Found Audio Device Intel Kaby Lake HDMI (HDMI) at index 2
+16:978  0:000  theme inited
+16:978  0:000  Chosen theme Mojave
+16:979  0:000  after NVRAM boot-args=dart=0 nv_disable=1 -disablegfxfirmware -cdfon -igfxnohdmi -no_compat_check lilucpu=9 darkwake=0 kext-dev-mode=1 debug=0x100 -v
+16:979  0:000  === [ AddCustomEntries ] ==================================
+16:979  0:000  Custom entry 0 FullTitle:"macOS Catalina" Path:"\System\Library\CoreServices\boot.efi" Type:1 Flags:0x6 matching Volume:"BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE"
+16:979  0:000      Checking volume "EFI" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,C1F213CB-0C4F-486E-A6EB-F007E61D2863,0x28,0x64000)) ... skipped
+16:979  0:000      Checking volume "Windows" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(4,GPT,6E8D61DB-FAC2-4FCF-85F8-B00E994577D9,0x3A3FF000,0x18FF8000)) ... skipped
+16:979  0:000      Checking volume "Preboot" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,138DC8E4152A5D44B2E67E07BC9DE3FD)) ... skipped because volume is hidden
+16:979  0:000      Checking volume "macOS - Dados" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,7729CF04CADD2C4DB29644B030C01A99)) ... skipped because path does not exist
+16:979  0:000      Checking volume "Recovery" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,0B98DAC81C7A904E890253427FF1CCEE)) ... skipped because volume is hidden
+16:979  0:000      Checking volume "VM" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,BDB8A1848E902D4C82392CBF7495741A)) ... skipped because path does not exist
+16:979  0:000      Checking volume "macOS" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,466752A6A6A7034782FBDEE3A41A4E18)) ... match!
+16:980  0:001      hibernated: set as never
+16:984  0:003  Custom settings: <null string>.plist will  be applied
+16:987  0:003  Custom entry 1 FullTitle:"Windows 10" Path:"\EFI\Microsoft\Boot\bootmgfw.efi" Options:"-s -h" Type:7 Flags:0x0 matching Volume:"C1F213CB-0C4F-486E-A6EB-F007E61D2863"
+16:987  0:000      Checking volume "EFI" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,C1F213CB-0C4F-486E-A6EB-F007E61D2863,0x28,0x64000)) ... match!
+16:993  0:005  Custom settings: <null string>.plist will  be applied
+16:993  0:000      Checking volume "Windows" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(4,GPT,6E8D61DB-FAC2-4FCF-85F8-B00E994577D9,0x3A3FF000,0x18FF8000)) ... skipped
+16:993  0:000      Checking volume "Preboot" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,138DC8E4152A5D44B2E67E07BC9DE3FD)) ... skipped because volume is hidden
+16:993  0:000      Checking volume "macOS - Dados" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,7729CF04CADD2C4DB29644B030C01A99)) ... skipped
+16:993  0:000      Checking volume "Recovery" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,0B98DAC81C7A904E890253427FF1CCEE)) ... skipped because volume is hidden
+16:993  0:000      Checking volume "VM" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,BDB8A1848E902D4C82392CBF7495741A)) ... skipped
+16:993  0:000      Checking volume "macOS" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,466752A6A6A7034782FBDEE3A41A4E18)) ... skipped
+16:993  0:000  Custom entry 2 FullTitle:"Ubuntu" Path:"\EFI\ubuntu\shimx64.efi" Type:4 Flags:0x0 matching Volume:"C1F213CB-0C4F-486E-A6EB-F007E61D2863"
+16:993  0:000      Checking volume "EFI" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,C1F213CB-0C4F-486E-A6EB-F007E61D2863,0x28,0x64000)) ... match!
+16:998  0:004  Custom settings: <null string>.plist will  be applied
+16:998  0:000      Checking volume "Windows" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(4,GPT,6E8D61DB-FAC2-4FCF-85F8-B00E994577D9,0x3A3FF000,0x18FF8000)) ... skipped
+16:998  0:000      Checking volume "Preboot" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,138DC8E4152A5D44B2E67E07BC9DE3FD)) ... skipped because volume is hidden
+16:998  0:000      Checking volume "macOS - Dados" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,7729CF04CADD2C4DB29644B030C01A99)) ... skipped
+16:998  0:000      Checking volume "Recovery" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,0B98DAC81C7A904E890253427FF1CCEE)) ... skipped because volume is hidden
+16:998  0:000      Checking volume "VM" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,BDB8A1848E902D4C82392CBF7495741A)) ... skipped
+16:998  0:000      Checking volume "macOS" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,466752A6A6A7034782FBDEE3A41A4E18)) ... skipped
+16:998  0:000  Entry scan disabled
+16:998  0:000  === [ AddCustomTool ] =====================================
+17:000  0:001  found tool \EFI\CLOVER\tools\Shell64U.efi
+17:000  0:000  Checking EFI partition Volume 2 for Clover
+17:005  0:005   Found Clover
+17:005  0:000  === [ GetEfiBootDeviceFromNvram ] =========================
+17:005  0:000  === [ FindStartupDiskVolume ] =============================
+17:005  0:000    - Volume: partition = PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,C1F213CB-0C4F-486E-A6EB-F007E61D2863,0x28,0x64000)
+17:005  0:000     - searching for that partition and loader '\EFI\ubuntu\shimx64.efi'
+17:005  0:000      - found entry 2. 'Ubuntu', Volume 'EFI', '\EFI\ubuntu\shimx64.efi'
+17:005  0:000  Boot redirected to Entry 2. 'Ubuntu'
+17:005  0:000  DefaultIndex=2 and MainMenu.EntryCount=9
+17:653  0:648  exit from MainMenu 8
+17:656  0:002  ReinitSelfLib after theme change
+17:656  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,C1F213CB-0C4F-486E-A6EB-F007E61D2863,0x28,0x64000)
+17:660  0:003  === [ ScanVolumes ] =======================================
+17:660  0:000  Found 13 volumes with blockIO
+17:660  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x5,0x0)
+17:660  0:000          USB volume
+17:660  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)
+17:661  0:001          Result of bootcode detection: bootable unknown (legacy)
+17:661  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,C1F213CB-0C4F-486E-A6EB-F007E61D2863,0x28,0x64000)
+17:661  0:000          Result of bootcode detection: bootable unknown (legacy)
+17:666  0:004          This is SelfVolume !!
+17:666  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)
+17:666  0:000          Result of bootcode detection: bootable unknown (legacy)
+17:666  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(3,GPT,30987FAD-9A56-4056-9348-2E6BDD1DDE81,0x3A3F7000,0x8000)
+17:667  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(4,GPT,6E8D61DB-FAC2-4FCF-85F8-B00E994577D9,0x3A3FF000,0x18FF8000)
+17:667  0:000          Result of bootcode detection: bootable Windows (vista,win)
+17:667  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(5,GPT,A8BAEA1A-BF78-4349-A5D2-C639C5C5DDF8,0x533F7000,0xE90A000)
+17:668  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(6,GPT,152C5198-3586-4F65-98AE-9462E2F5AEAF,0x61D01000,0x129C5800)
+17:669  0:000          Result of bootcode detection: bootable unknown (legacy)
+17:669  0:000  - [08]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,138DC8E4152A5D44B2E67E07BC9DE3FD)
+17:669  0:000  - [09]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,7729CF04CADD2C4DB29644B030C01A99)
+17:669  0:000  - [10]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,0B98DAC81C7A904E890253427FF1CCEE)
+17:669  0:000  - [11]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,BDB8A1848E902D4C82392CBF7495741A)
+17:669  0:000  - [12]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,466752A6A6A7034782FBDEE3A41A4E18)
+17:669  0:000  found 2 handles with audio
+17:669  0:000  No AudioIoDevice stored
+17:669  0:000  no stored audio parameters
+17:669  0:000  Found Audio Device Realtek ALC256 (Speaker) at index 0
+17:669  0:000  Found Audio Device Realtek ALC256 (Headphones) at index 1
+17:669  0:000  Found Audio Device Intel Kaby Lake HDMI (HDMI) at index 2
+17:669  0:000  theme inited
+17:669  0:000  Chosen theme Mojave
+17:669  0:000  after NVRAM boot-args=dart=0 nv_disable=1 -disablegfxfirmware -cdfon -igfxnohdmi -no_compat_check lilucpu=9 darkwake=0 kext-dev-mode=1 debug=0x100 -v
+17:669  0:000  === [ AddCustomEntries ] ==================================
+17:669  0:000  Custom entry 0 FullTitle:"macOS Catalina" Path:"\System\Library\CoreServices\boot.efi" Type:1 Flags:0x6 matching Volume:"BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE"
+17:669  0:000      Checking volume "EFI" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,C1F213CB-0C4F-486E-A6EB-F007E61D2863,0x28,0x64000)) ... skipped
+17:669  0:000      Checking volume "Windows" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(4,GPT,6E8D61DB-FAC2-4FCF-85F8-B00E994577D9,0x3A3FF000,0x18FF8000)) ... skipped
+17:669  0:000      Checking volume "Preboot" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,138DC8E4152A5D44B2E67E07BC9DE3FD)) ... skipped because path does not exist
+17:669  0:000      Checking volume "macOS - Dados" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,7729CF04CADD2C4DB29644B030C01A99)) ... skipped because path does not exist
+17:670  0:000      Checking volume "Recovery" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,0B98DAC81C7A904E890253427FF1CCEE)) ... skipped because path does not exist
+17:670  0:000      Checking volume "VM" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,BDB8A1848E902D4C82392CBF7495741A)) ... skipped because path does not exist
+17:670  0:000      Checking volume "macOS" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,466752A6A6A7034782FBDEE3A41A4E18)) ... match!
+17:671  0:001      hibernated: set as never
+17:674  0:003  Custom settings: <null string>.plist will  be applied
+17:678  0:003  Custom entry 1 FullTitle:"Windows 10" Path:"\EFI\Microsoft\Boot\bootmgfw.efi" Options:"-s -h" Type:7 Flags:0x0 matching Volume:"C1F213CB-0C4F-486E-A6EB-F007E61D2863"
+17:678  0:000      Checking volume "EFI" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,C1F213CB-0C4F-486E-A6EB-F007E61D2863,0x28,0x64000)) ... match!
+17:683  0:004  Custom settings: <null string>.plist will  be applied
+17:683  0:000      Checking volume "Windows" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(4,GPT,6E8D61DB-FAC2-4FCF-85F8-B00E994577D9,0x3A3FF000,0x18FF8000)) ... skipped
+17:683  0:000      Checking volume "Preboot" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,138DC8E4152A5D44B2E67E07BC9DE3FD)) ... skipped
+17:683  0:000      Checking volume "macOS - Dados" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,7729CF04CADD2C4DB29644B030C01A99)) ... skipped
+17:683  0:000      Checking volume "Recovery" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,0B98DAC81C7A904E890253427FF1CCEE)) ... skipped
+17:683  0:000      Checking volume "VM" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,BDB8A1848E902D4C82392CBF7495741A)) ... skipped
+17:683  0:000      Checking volume "macOS" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,466752A6A6A7034782FBDEE3A41A4E18)) ... skipped
+17:683  0:000  Custom entry 2 FullTitle:"Ubuntu" Path:"\EFI\ubuntu\shimx64.efi" Type:4 Flags:0x0 matching Volume:"C1F213CB-0C4F-486E-A6EB-F007E61D2863"
+17:683  0:000      Checking volume "EFI" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,C1F213CB-0C4F-486E-A6EB-F007E61D2863,0x28,0x64000)) ... match!
+17:688  0:004  Custom settings: <null string>.plist will  be applied
+17:688  0:000      Checking volume "Windows" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(4,GPT,6E8D61DB-FAC2-4FCF-85F8-B00E994577D9,0x3A3FF000,0x18FF8000)) ... skipped
+17:688  0:000      Checking volume "Preboot" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,138DC8E4152A5D44B2E67E07BC9DE3FD)) ... skipped
+17:688  0:000      Checking volume "macOS - Dados" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,7729CF04CADD2C4DB29644B030C01A99)) ... skipped
+17:688  0:000      Checking volume "Recovery" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,0B98DAC81C7A904E890253427FF1CCEE)) ... skipped
+17:688  0:000      Checking volume "VM" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,BDB8A1848E902D4C82392CBF7495741A)) ... skipped
+17:688  0:000      Checking volume "macOS" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,466752A6A6A7034782FBDEE3A41A4E18)) ... skipped
+17:688  0:000  Entry scan disabled
+17:688  0:000  === [ AddCustomTool ] =====================================
+17:689  0:001  found tool \EFI\CLOVER\tools\Shell64U.efi
+17:689  0:000  Checking EFI partition Volume 2 for Clover
+17:694  0:005   Found Clover
+17:694  0:000  === [ GetEfiBootDeviceFromNvram ] =========================
+17:694  0:000  === [ FindStartupDiskVolume ] =============================
+17:694  0:000    - Volume: partition = PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,C1F213CB-0C4F-486E-A6EB-F007E61D2863,0x28,0x64000)
+17:694  0:000     - searching for that partition and loader '\EFI\ubuntu\shimx64.efi'
+17:694  0:000      - found entry 2. 'Ubuntu', Volume 'EFI', '\EFI\ubuntu\shimx64.efi'
+17:694  0:000  Boot redirected to Entry 2. 'Ubuntu'
+17:694  0:000  DefaultIndex=2 and MainMenu.EntryCount=9
+21:037  3:342  exit from MainMenu 8
+21:040  0:003  ReinitSelfLib after theme change
+21:040  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,C1F213CB-0C4F-486E-A6EB-F007E61D2863,0x28,0x64000)
+21:044  0:004  === [ ScanVolumes ] =======================================
+21:044  0:000  Found 13 volumes with blockIO
+21:044  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x5,0x0)
+21:044  0:000          USB volume
+21:044  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)
+21:045  0:000          Result of bootcode detection: bootable unknown (legacy)
+21:045  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,C1F213CB-0C4F-486E-A6EB-F007E61D2863,0x28,0x64000)
+21:046  0:001          Result of bootcode detection: bootable unknown (legacy)
+21:050  0:003          This is SelfVolume !!
+21:050  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)
+21:050  0:000          Result of bootcode detection: bootable unknown (legacy)
+21:050  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(3,GPT,30987FAD-9A56-4056-9348-2E6BDD1DDE81,0x3A3F7000,0x8000)
+21:051  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(4,GPT,6E8D61DB-FAC2-4FCF-85F8-B00E994577D9,0x3A3FF000,0x18FF8000)
+21:052  0:001          Result of bootcode detection: bootable Windows (vista,win)
+21:052  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(5,GPT,A8BAEA1A-BF78-4349-A5D2-C639C5C5DDF8,0x533F7000,0xE90A000)
+21:052  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(6,GPT,152C5198-3586-4F65-98AE-9462E2F5AEAF,0x61D01000,0x129C5800)
+21:054  0:001          Result of bootcode detection: bootable unknown (legacy)
+21:054  0:000  - [08]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,138DC8E4152A5D44B2E67E07BC9DE3FD)
+21:054  0:000          hiding this volume
+21:054  0:000  - [09]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,7729CF04CADD2C4DB29644B030C01A99)
+21:054  0:000  - [10]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,0B98DAC81C7A904E890253427FF1CCEE)
+21:054  0:000          hiding this volume
+21:054  0:000  - [11]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,BDB8A1848E902D4C82392CBF7495741A)
+21:054  0:000  - [12]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,466752A6A6A7034782FBDEE3A41A4E18)
+21:054  0:000  found 2 handles with audio
+21:054  0:000  No AudioIoDevice stored
+21:054  0:000  no stored audio parameters
+21:054  0:000  Found Audio Device Realtek ALC256 (Speaker) at index 0
+21:054  0:000  Found Audio Device Realtek ALC256 (Headphones) at index 1
+21:054  0:000  Found Audio Device Intel Kaby Lake HDMI (HDMI) at index 2
+21:054  0:000  theme inited
+21:054  0:000  Chosen theme Mojave
+21:054  0:000  after NVRAM boot-args=dart=0 nv_disable=1 -disablegfxfirmware -cdfon -igfxnohdmi -no_compat_check lilucpu=9 darkwake=0 kext-dev-mode=1 debug=0x100 -v
+21:054  0:000  === [ AddCustomEntries ] ==================================
+21:054  0:000  Custom entry 0 FullTitle:"macOS Catalina" Path:"\System\Library\CoreServices\boot.efi" Type:1 Flags:0x6 matching Volume:"BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE"
+21:054  0:000      Checking volume "EFI" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,C1F213CB-0C4F-486E-A6EB-F007E61D2863,0x28,0x64000)) ... skipped
+21:054  0:000      Checking volume "Windows" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(4,GPT,6E8D61DB-FAC2-4FCF-85F8-B00E994577D9,0x3A3FF000,0x18FF8000)) ... skipped
+21:054  0:000      Checking volume "Preboot" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,138DC8E4152A5D44B2E67E07BC9DE3FD)) ... skipped because volume is hidden
+21:054  0:000      Checking volume "macOS - Dados" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,7729CF04CADD2C4DB29644B030C01A99)) ... skipped because path does not exist
+21:055  0:000      Checking volume "Recovery" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,0B98DAC81C7A904E890253427FF1CCEE)) ... skipped because volume is hidden
+21:055  0:000      Checking volume "VM" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,BDB8A1848E902D4C82392CBF7495741A)) ... skipped because path does not exist
+21:055  0:000      Checking volume "macOS" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,466752A6A6A7034782FBDEE3A41A4E18)) ... match!
+21:056  0:001      hibernated: set as never
+21:059  0:003  Custom settings: <null string>.plist will  be applied
+21:062  0:002  Custom entry 1 FullTitle:"Windows 10" Path:"\EFI\Microsoft\Boot\bootmgfw.efi" Options:"-s -h" Type:7 Flags:0x0 matching Volume:"C1F213CB-0C4F-486E-A6EB-F007E61D2863"
+21:062  0:000      Checking volume "EFI" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,C1F213CB-0C4F-486E-A6EB-F007E61D2863,0x28,0x64000)) ... match!
+21:068  0:006  Custom settings: <null string>.plist will  be applied
+21:068  0:000      Checking volume "Windows" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(4,GPT,6E8D61DB-FAC2-4FCF-85F8-B00E994577D9,0x3A3FF000,0x18FF8000)) ... skipped
+21:068  0:000      Checking volume "Preboot" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,138DC8E4152A5D44B2E67E07BC9DE3FD)) ... skipped because volume is hidden
+21:068  0:000      Checking volume "macOS - Dados" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,7729CF04CADD2C4DB29644B030C01A99)) ... skipped
+21:068  0:000      Checking volume "Recovery" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,0B98DAC81C7A904E890253427FF1CCEE)) ... skipped because volume is hidden
+21:068  0:000      Checking volume "VM" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,BDB8A1848E902D4C82392CBF7495741A)) ... skipped
+21:068  0:000      Checking volume "macOS" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,466752A6A6A7034782FBDEE3A41A4E18)) ... skipped
+21:068  0:000  Custom entry 2 FullTitle:"Ubuntu" Path:"\EFI\ubuntu\shimx64.efi" Type:4 Flags:0x0 matching Volume:"C1F213CB-0C4F-486E-A6EB-F007E61D2863"
+21:068  0:000      Checking volume "EFI" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,C1F213CB-0C4F-486E-A6EB-F007E61D2863,0x28,0x64000)) ... match!
+21:072  0:004  Custom settings: <null string>.plist will  be applied
+21:072  0:000      Checking volume "Windows" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(4,GPT,6E8D61DB-FAC2-4FCF-85F8-B00E994577D9,0x3A3FF000,0x18FF8000)) ... skipped
+21:072  0:000      Checking volume "Preboot" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,138DC8E4152A5D44B2E67E07BC9DE3FD)) ... skipped because volume is hidden
+21:072  0:000      Checking volume "macOS - Dados" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,7729CF04CADD2C4DB29644B030C01A99)) ... skipped
+21:073  0:000      Checking volume "Recovery" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,0B98DAC81C7A904E890253427FF1CCEE)) ... skipped because volume is hidden
+21:073  0:000      Checking volume "VM" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,BDB8A1848E902D4C82392CBF7495741A)) ... skipped
+21:073  0:000      Checking volume "macOS" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,466752A6A6A7034782FBDEE3A41A4E18)) ... skipped
+21:073  0:000  Entry scan disabled
+21:073  0:000  === [ AddCustomTool ] =====================================
+21:074  0:001  found tool \EFI\CLOVER\tools\Shell64U.efi
+21:074  0:000  Checking EFI partition Volume 2 for Clover
+21:081  0:006   Found Clover
+21:081  0:000  === [ GetEfiBootDeviceFromNvram ] =========================
+21:081  0:000  === [ FindStartupDiskVolume ] =============================
+21:081  0:000    - Volume: partition = PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,C1F213CB-0C4F-486E-A6EB-F007E61D2863,0x28,0x64000)
+21:081  0:000     - searching for that partition and loader '\EFI\ubuntu\shimx64.efi'
+21:081  0:000      - found entry 2. 'Ubuntu', Volume 'EFI', '\EFI\ubuntu\shimx64.efi'
+21:081  0:000  Boot redirected to Entry 2. 'Ubuntu'
+21:081  0:000  DefaultIndex=2 and MainMenu.EntryCount=9
+21:942  0:861  exit from MainMenu 8
+21:945  0:003  ReinitSelfLib after theme change
+21:945  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,C1F213CB-0C4F-486E-A6EB-F007E61D2863,0x28,0x64000)
+21:948  0:003  === [ ScanVolumes ] =======================================
+21:948  0:000  Found 13 volumes with blockIO
+21:948  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x5,0x0)
+21:948  0:000          USB volume
+21:948  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)
+21:949  0:000          Result of bootcode detection: bootable unknown (legacy)
+21:949  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,C1F213CB-0C4F-486E-A6EB-F007E61D2863,0x28,0x64000)
+21:950  0:001          Result of bootcode detection: bootable unknown (legacy)
+21:953  0:003          This is SelfVolume !!
+21:953  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)
+21:954  0:000          Result of bootcode detection: bootable unknown (legacy)
+21:954  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(3,GPT,30987FAD-9A56-4056-9348-2E6BDD1DDE81,0x3A3F7000,0x8000)
+21:954  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(4,GPT,6E8D61DB-FAC2-4FCF-85F8-B00E994577D9,0x3A3FF000,0x18FF8000)
+21:955  0:001          Result of bootcode detection: bootable Windows (vista,win)
+21:955  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(5,GPT,A8BAEA1A-BF78-4349-A5D2-C639C5C5DDF8,0x533F7000,0xE90A000)
+21:956  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(6,GPT,152C5198-3586-4F65-98AE-9462E2F5AEAF,0x61D01000,0x129C5800)
+21:957  0:000          Result of bootcode detection: bootable unknown (legacy)
+21:957  0:000  - [08]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,138DC8E4152A5D44B2E67E07BC9DE3FD)
+21:957  0:000  - [09]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,7729CF04CADD2C4DB29644B030C01A99)
+21:957  0:000  - [10]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,0B98DAC81C7A904E890253427FF1CCEE)
+21:957  0:000  - [11]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,BDB8A1848E902D4C82392CBF7495741A)
+21:957  0:000  - [12]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,466752A6A6A7034782FBDEE3A41A4E18)
+21:957  0:000  found 2 handles with audio
+21:957  0:000  No AudioIoDevice stored
+21:957  0:000  no stored audio parameters
+21:957  0:000  Found Audio Device Realtek ALC256 (Speaker) at index 0
+21:957  0:000  Found Audio Device Realtek ALC256 (Headphones) at index 1
+21:957  0:000  Found Audio Device Intel Kaby Lake HDMI (HDMI) at index 2
+21:957  0:000  theme inited
+21:957  0:000  Chosen theme Mojave
+21:957  0:000  after NVRAM boot-args=dart=0 nv_disable=1 -disablegfxfirmware -cdfon -igfxnohdmi -no_compat_check lilucpu=9 darkwake=0 kext-dev-mode=1 debug=0x100 -v
+21:957  0:000  === [ AddCustomEntries ] ==================================
+21:957  0:000  Custom entry 0 FullTitle:"macOS Catalina" Path:"\System\Library\CoreServices\boot.efi" Type:1 Flags:0x6 matching Volume:"BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE"
+21:957  0:000      Checking volume "EFI" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,C1F213CB-0C4F-486E-A6EB-F007E61D2863,0x28,0x64000)) ... skipped
+21:957  0:000      Checking volume "Windows" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(4,GPT,6E8D61DB-FAC2-4FCF-85F8-B00E994577D9,0x3A3FF000,0x18FF8000)) ... skipped
+21:957  0:000      Checking volume "Preboot" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,138DC8E4152A5D44B2E67E07BC9DE3FD)) ... skipped because path does not exist
+21:957  0:000      Checking volume "macOS - Dados" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,7729CF04CADD2C4DB29644B030C01A99)) ... skipped because path does not exist
+21:958  0:000      Checking volume "Recovery" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,0B98DAC81C7A904E890253427FF1CCEE)) ... skipped because path does not exist
+21:958  0:000      Checking volume "VM" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,BDB8A1848E902D4C82392CBF7495741A)) ... skipped because path does not exist
+21:958  0:000      Checking volume "macOS" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,466752A6A6A7034782FBDEE3A41A4E18)) ... match!
+21:959  0:001      hibernated: set as never
+21:963  0:004  Custom settings: <null string>.plist will  be applied
+21:966  0:003  Custom entry 1 FullTitle:"Windows 10" Path:"\EFI\Microsoft\Boot\bootmgfw.efi" Options:"-s -h" Type:7 Flags:0x0 matching Volume:"C1F213CB-0C4F-486E-A6EB-F007E61D2863"
+21:966  0:000      Checking volume "EFI" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,C1F213CB-0C4F-486E-A6EB-F007E61D2863,0x28,0x64000)) ... match!
+21:971  0:005  Custom settings: <null string>.plist will  be applied
+21:972  0:000      Checking volume "Windows" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(4,GPT,6E8D61DB-FAC2-4FCF-85F8-B00E994577D9,0x3A3FF000,0x18FF8000)) ... skipped
+21:972  0:000      Checking volume "Preboot" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,138DC8E4152A5D44B2E67E07BC9DE3FD)) ... skipped
+21:972  0:000      Checking volume "macOS - Dados" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,7729CF04CADD2C4DB29644B030C01A99)) ... skipped
+21:972  0:000      Checking volume "Recovery" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,0B98DAC81C7A904E890253427FF1CCEE)) ... skipped
+21:972  0:000      Checking volume "VM" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,BDB8A1848E902D4C82392CBF7495741A)) ... skipped
+21:972  0:000      Checking volume "macOS" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,466752A6A6A7034782FBDEE3A41A4E18)) ... skipped
+21:972  0:000  Custom entry 2 FullTitle:"Ubuntu" Path:"\EFI\ubuntu\shimx64.efi" Type:4 Flags:0x0 matching Volume:"C1F213CB-0C4F-486E-A6EB-F007E61D2863"
+21:972  0:000      Checking volume "EFI" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,C1F213CB-0C4F-486E-A6EB-F007E61D2863,0x28,0x64000)) ... match!
+21:976  0:004  Custom settings: <null string>.plist will  be applied
+21:976  0:000      Checking volume "Windows" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(4,GPT,6E8D61DB-FAC2-4FCF-85F8-B00E994577D9,0x3A3FF000,0x18FF8000)) ... skipped
+21:976  0:000      Checking volume "Preboot" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,138DC8E4152A5D44B2E67E07BC9DE3FD)) ... skipped
+21:976  0:000      Checking volume "macOS - Dados" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,7729CF04CADD2C4DB29644B030C01A99)) ... skipped
+21:976  0:000      Checking volume "Recovery" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,0B98DAC81C7A904E890253427FF1CCEE)) ... skipped
+21:976  0:000      Checking volume "VM" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,BDB8A1848E902D4C82392CBF7495741A)) ... skipped
+21:976  0:000      Checking volume "macOS" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,466752A6A6A7034782FBDEE3A41A4E18)) ... skipped
+21:976  0:000  Entry scan disabled
+21:976  0:000  === [ AddCustomTool ] =====================================
+21:977  0:001  found tool \EFI\CLOVER\tools\Shell64U.efi
+21:977  0:000  Checking EFI partition Volume 2 for Clover
+21:983  0:005   Found Clover
+21:983  0:000  === [ GetEfiBootDeviceFromNvram ] =========================
+21:983  0:000  === [ FindStartupDiskVolume ] =============================
+21:983  0:000    - Volume: partition = PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,C1F213CB-0C4F-486E-A6EB-F007E61D2863,0x28,0x64000)
+21:983  0:000     - searching for that partition and loader '\EFI\ubuntu\shimx64.efi'
+21:983  0:000      - found entry 2. 'Ubuntu', Volume 'EFI', '\EFI\ubuntu\shimx64.efi'
+21:983  0:000  Boot redirected to Entry 2. 'Ubuntu'
+21:983  0:000  DefaultIndex=2 and MainMenu.EntryCount=9
+22:602  0:619  exit from MainMenu 8
+22:606  0:003  ReinitSelfLib after theme change
+22:606  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,C1F213CB-0C4F-486E-A6EB-F007E61D2863,0x28,0x64000)
+22:609  0:003  === [ ScanVolumes ] =======================================
+22:609  0:000  Found 13 volumes with blockIO
+22:609  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x5,0x0)
+22:609  0:000          USB volume
+22:609  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)
+22:609  0:000          Result of bootcode detection: bootable unknown (legacy)
+22:609  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,C1F213CB-0C4F-486E-A6EB-F007E61D2863,0x28,0x64000)
+22:610  0:001          Result of bootcode detection: bootable unknown (legacy)
+22:613  0:002          This is SelfVolume !!
+22:613  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)
+22:613  0:000          Result of bootcode detection: bootable unknown (legacy)
+22:613  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(3,GPT,30987FAD-9A56-4056-9348-2E6BDD1DDE81,0x3A3F7000,0x8000)
+22:614  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(4,GPT,6E8D61DB-FAC2-4FCF-85F8-B00E994577D9,0x3A3FF000,0x18FF8000)
+22:615  0:001          Result of bootcode detection: bootable Windows (vista,win)
+22:615  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(5,GPT,A8BAEA1A-BF78-4349-A5D2-C639C5C5DDF8,0x533F7000,0xE90A000)
+22:615  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(6,GPT,152C5198-3586-4F65-98AE-9462E2F5AEAF,0x61D01000,0x129C5800)
+22:616  0:001          Result of bootcode detection: bootable unknown (legacy)
+22:616  0:000  - [08]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,138DC8E4152A5D44B2E67E07BC9DE3FD)
+22:617  0:000          hiding this volume
+22:617  0:000  - [09]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,7729CF04CADD2C4DB29644B030C01A99)
+22:617  0:000  - [10]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,0B98DAC81C7A904E890253427FF1CCEE)
+22:617  0:000          hiding this volume
+22:617  0:000  - [11]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,BDB8A1848E902D4C82392CBF7495741A)
+22:617  0:000  - [12]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,466752A6A6A7034782FBDEE3A41A4E18)
+22:617  0:000  found 2 handles with audio
+22:617  0:000  No AudioIoDevice stored
+22:617  0:000  no stored audio parameters
+22:617  0:000  Found Audio Device Realtek ALC256 (Speaker) at index 0
+22:617  0:000  Found Audio Device Realtek ALC256 (Headphones) at index 1
+22:617  0:000  Found Audio Device Intel Kaby Lake HDMI (HDMI) at index 2
+22:617  0:000  theme inited
+22:617  0:000  Chosen theme Mojave
+22:617  0:000  after NVRAM boot-args=dart=0 nv_disable=1 -disablegfxfirmware -cdfon -igfxnohdmi -no_compat_check lilucpu=9 darkwake=0 kext-dev-mode=1 debug=0x100 -v
+22:617  0:000  === [ AddCustomEntries ] ==================================
+22:617  0:000  Custom entry 0 FullTitle:"macOS Catalina" Path:"\System\Library\CoreServices\boot.efi" Type:1 Flags:0x6 matching Volume:"BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE"
+22:617  0:000      Checking volume "EFI" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,C1F213CB-0C4F-486E-A6EB-F007E61D2863,0x28,0x64000)) ... skipped
+22:617  0:000      Checking volume "Windows" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(4,GPT,6E8D61DB-FAC2-4FCF-85F8-B00E994577D9,0x3A3FF000,0x18FF8000)) ... skipped
+22:617  0:000      Checking volume "Preboot" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,138DC8E4152A5D44B2E67E07BC9DE3FD)) ... skipped because volume is hidden
+22:617  0:000      Checking volume "macOS - Dados" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,7729CF04CADD2C4DB29644B030C01A99)) ... skipped because path does not exist
+22:617  0:000      Checking volume "Recovery" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,0B98DAC81C7A904E890253427FF1CCEE)) ... skipped because volume is hidden
+22:617  0:000      Checking volume "VM" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,BDB8A1848E902D4C82392CBF7495741A)) ... skipped because path does not exist
+22:617  0:000      Checking volume "macOS" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,466752A6A6A7034782FBDEE3A41A4E18)) ... match!
+22:619  0:001      hibernated: set as never
+22:623  0:004  Custom settings: <null string>.plist will  be applied
+22:625  0:002  Custom entry 1 FullTitle:"Windows 10" Path:"\EFI\Microsoft\Boot\bootmgfw.efi" Options:"-s -h" Type:7 Flags:0x0 matching Volume:"C1F213CB-0C4F-486E-A6EB-F007E61D2863"
+22:625  0:000      Checking volume "EFI" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,C1F213CB-0C4F-486E-A6EB-F007E61D2863,0x28,0x64000)) ... match!
+22:631  0:005  Custom settings: <null string>.plist will  be applied
+22:631  0:000      Checking volume "Windows" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(4,GPT,6E8D61DB-FAC2-4FCF-85F8-B00E994577D9,0x3A3FF000,0x18FF8000)) ... skipped
+22:631  0:000      Checking volume "Preboot" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,138DC8E4152A5D44B2E67E07BC9DE3FD)) ... skipped because volume is hidden
+22:631  0:000      Checking volume "macOS - Dados" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,7729CF04CADD2C4DB29644B030C01A99)) ... skipped
+22:631  0:000      Checking volume "Recovery" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,0B98DAC81C7A904E890253427FF1CCEE)) ... skipped because volume is hidden
+22:631  0:000      Checking volume "VM" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,BDB8A1848E902D4C82392CBF7495741A)) ... skipped
+22:631  0:000      Checking volume "macOS" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,466752A6A6A7034782FBDEE3A41A4E18)) ... skipped
+22:631  0:000  Custom entry 2 FullTitle:"Ubuntu" Path:"\EFI\ubuntu\shimx64.efi" Type:4 Flags:0x0 matching Volume:"C1F213CB-0C4F-486E-A6EB-F007E61D2863"
+22:631  0:000      Checking volume "EFI" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,C1F213CB-0C4F-486E-A6EB-F007E61D2863,0x28,0x64000)) ... match!
+22:635  0:004  Custom settings: <null string>.plist will  be applied
+22:635  0:000      Checking volume "Windows" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(4,GPT,6E8D61DB-FAC2-4FCF-85F8-B00E994577D9,0x3A3FF000,0x18FF8000)) ... skipped
+22:635  0:000      Checking volume "Preboot" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,138DC8E4152A5D44B2E67E07BC9DE3FD)) ... skipped because volume is hidden
+22:635  0:000      Checking volume "macOS - Dados" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,7729CF04CADD2C4DB29644B030C01A99)) ... skipped
+22:635  0:000      Checking volume "Recovery" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,0B98DAC81C7A904E890253427FF1CCEE)) ... skipped because volume is hidden
+22:635  0:000      Checking volume "VM" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,BDB8A1848E902D4C82392CBF7495741A)) ... skipped
+22:635  0:000      Checking volume "macOS" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE,0x64028,0x3A392940)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,466752A6A6A7034782FBDEE3A41A4E18)) ... skipped
+22:635  0:000  Entry scan disabled
+22:635  0:000  === [ AddCustomTool ] =====================================
+22:636  0:001  found tool \EFI\CLOVER\tools\Shell64U.efi
+22:636  0:000  Checking EFI partition Volume 2 for Clover
+22:642  0:005   Found Clover
+22:642  0:000  === [ GetEfiBootDeviceFromNvram ] =========================
+22:642  0:000  === [ FindStartupDiskVolume ] =============================
+22:642  0:000    - Volume: partition = PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,C1F213CB-0C4F-486E-A6EB-F007E61D2863,0x28,0x64000)
+22:642  0:000     - searching for that partition and loader '\EFI\ubuntu\shimx64.efi'
+22:642  0:000      - found entry 2. 'Ubuntu', Volume 'EFI', '\EFI\ubuntu\shimx64.efi'
+22:642  0:000  Boot redirected to Entry 2. 'Ubuntu'
+22:642  0:000  DefaultIndex=2 and MainMenu.EntryCount=9
+24:882  2:240  exit from MainMenu 7
+33:545  8:662  exit from MainMenu 1
+33:545  0:000  BootVariable of the entry is empty
+33:545  0:000  === [ StartLoader ] =======================================
+33:545  0:000  Finally: ExternalClock=26MHz BusSpeed=100190kHz CPUFreq=2304MHz PIS: hw.busfrequency=104000000Hz
+33:545  0:000  Loading boot.efi  status=Success
+33:644  0:099  GetOSVersion: 10.15.3 (19D76)
+33:644  0:000  CSR_CFG: CSR_ALLOW_UNTRUSTED_KEXTS | CSR_ALLOW_UNRESTRICTED_FS | CSR_ALLOW_TASK_FOR_PID | CSR_ALLOW_UNRESTRICTED_DTRACE | CSR_ALLOW_UNRESTRICTED_NVRAM
+33:644  0:000  Filtering KextPatches:
+33:644  0:000   - [00]: com.apple.driver.AppleBacklight (change F%uT%04x to F%uTxxxx in AppleBacklightInjector.kext (credit RehabMan)) :: BinPatch :: [OS: 10.15.3 | MatchOS: All | MatchBuild: All] ==> allowed
+33:644  0:000   - [01]: AppleIntelLpssI2C (Disable AppleIntelLpssI2C (credit by Coolstar)) :: BinPatch :: [OS: 10.15.3 | MatchOS: All | MatchBuild: All] ==> allowed
+33:644  0:000   - [02]: AppleIntelLpssI2CController (Disable AppleIntelLpssI2CController (credit by Coolstar)) :: BinPatch :: [OS: 10.15.3 | MatchOS: All | MatchBuild: All] ==> allowed
+33:644  0:000   - [03]: com.apple.driver.AppleIntelKBLGraphicsFramebuffer (Disable minStolenSize less or equal fStolenMemorySize assertion, 10.14 (credit Austere.J)) :: BinPatch :: [OS: 10.15.3 | MatchOS: 10.14.x | MatchBuild: All] ==> not allowed
+33:644  0:000   - [04]: com.apple.driver.usb.AppleUSBXHCI (disable port limit in XHCI kext (credit PMHeart)) :: BinPatch :: [OS: 10.15.3 | MatchOS: 10.14.x | MatchBuild: All] ==> not allowed
+33:644  0:000   - [05]: com.apple.iokit.IOUSBHostFamily (USB Port limit patch #1(credits PMheart)) :: BinPatch :: [OS: 10.15.3 | MatchOS: 10.15.x | MatchBuild: All] ==> allowed
+33:644  0:000   - [06]: com.apple.driver.usb.AppleUSBXHCI (USB Port limit patch #2(credits PMheart)) :: BinPatch :: [OS: 10.15.3 | MatchOS: 10.15.x | MatchBuild: All] ==> allowed
+33:644  0:000   - [07]: com.apple.driver.AppleSDXC (Card Reader Info.plist) :: BinPatch :: [OS: 10.15.3 | MatchOS: All | MatchBuild: All] ==> disabled by user
+33:644  0:000   - [08]: com.apple.driver.AppleSDXC (Micro Inc. SD Card Reader Binary- pci14e4,16bc -> pci0316,0bda) :: PlistPatch :: [OS: 10.15.3 | MatchOS: All | MatchBuild: All] ==> disabled by user
+33:644  0:000  Filtering KernelPatches:
+33:644  0:000   - [00]: MSR 0xE2 _xcpm_idle instant reboot(c) Pike R. Alpha :: [OS: 10.15.3 | MatchOS: All | MatchBuild: no] ==> allowed by OS
+33:644  0:000   - [01]: Disable panic kext logging on 10.14 release kernel (credit vit9696) :: [OS: 10.15.3 | MatchOS: 10.14.x | MatchBuild: no] ==> not allowed by OS
+33:644  0:000  Will not patch boot.efi
+33:644  0:000  === [ PatchSmbios ] =======================================
+33:644  0:000  insert table 9 for dev 0:0
+33:644  0:000  insert table 9 for dev 0:0
+33:644  0:000  Table 11 present, but rewritten for us
+33:645  0:001  Trusting SMBIOS...
+33:645  0:000  Channels: 1
+33:645  0:000  Interleave: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23
+33:645  0:000   partNum=9905624-044.A00G    
+33:645  0:000  SMBIOS Type 17 Index = 0 => 0 0:
+33:645  0:000  BANK 0 DIMM0 2400MHz 8192MB(Ext:0MB)
+33:645  0:000  SMBIOS Type 17 Index = 1 => 1 1:
+33:645  0:000  BANK 0 DIMM1 EMPTY
+33:645  0:000  mTotalSystemMemory = 8192
+33:645  0:000  NumberOfMemoryDevices = 2
+33:645  0:000  Type20[0]->End = 0x7FFFFF, Type17[0] = 0x2000
+33:645  0:000  Table 131 is present, CPUType=31
+33:645  0:000  Change to: 905
+33:645  0:000  === [ PatchACPI ] =========================================
+33:645  0:000  Xsdt reallocation done
+33:645  0:000  old FADT length=10C
+33:645  0:000   SignatureFixup: 0x896DCBF2 -> 0x0
+33:645  0:000  Found OperationRegion(GNVS, SystemMemory, 8AE9C000, ...)
+33:645  0:000  Found OperationRegion(EXBU, SystemMemory, 8AEA9000, ...)
+33:645  0:000  Found OperationRegion(OGNV, SystemMemory, 8AEA0000, ...)
+33:645  0:000  Found OperationRegion(DEGA, SystemMemory, 8AEA1000, ...)
+33:645  0:000  Found OperationRegion(PCF0, SystemMemory, F0100000, ...)
+33:645  0:000  Found OperationRegion(PCF1, SystemMemory, F0200000, ...)
+33:645  0:000  Found OperationRegion(PCF2, SystemMemory, F00E0000, ...)
+33:645  0:000  Found OperationRegion(PCF3, SystemMemory, F00E2000, ...)
+33:645  0:000  Found OperationRegion(PNVA, SystemMemory, 8AEA7B98, ...)
+33:645  0:000  Found OperationRegion(THBA, SystemMemory, FE200000, ...)
+33:647  0:001  Found OperationRegion(ITSS, SystemMemory, FDC43100, ...)
+33:647  0:000  Found OperationRegion(PCF0, SystemMemory, F0100000, ...)
+33:647  0:000  Found OperationRegion(PCF1, SystemMemory, F0200000, ...)
+33:647  0:000  Found OperationRegion(PCF2, SystemMemory, F00E0000, ...)
+33:647  0:000  Found OperationRegion(PCF3, SystemMemory, F00E2000, ...)
+33:647  0:000  Found OperationRegion(ABNV, SystemMemory, 8A77A000, ...)
+33:647  0:000  Found OperationRegion(TMMB, SystemMemory, FED40000, ...)
+33:647  0:000  Found OperationRegion(CRBD, SystemMemory, FED40000, ...)
+33:647  0:000  Found OperationRegion(TPMR, SystemMemory, FFFFFFFF, ...)
+33:647  0:000  Found OperationRegion(ATNV, SystemMemory, FFFF0000, ...)
+33:647  0:000  Found OperationRegion(WWPR, SystemMemory, 8AB83000, ...)
+33:693  0:046  DSDT found in Clover volume OEM folder: EFI\CLOVER\ACPI\patched\DSDT.aml
+33:705  0:012  Apply DsdtFixMask=0x10061050
+33:705  0:000     drop _DSM mask=0x0000
+33:705  0:000  === [ FixBiosDsdt ] =======================================
+33:705  0:000  Patching DSDT:
+33:705  0:000   - [change OSID to XSID]: disabled
+33:705  0:000   - [change _OSI to XOSI]: disabled
+33:705  0:000   - [change _DSM to XDSM]: disabled
+33:705  0:000   - [change EC0 to EC]: disabled
+33:705  0:000   - [change H_EC to EC]: disabled
+33:705  0:000   - [change ECDV to EC]: disabled
+33:706  0:000   - [change AZAL to HDEF]: pattern 415A414C, bin not found / already patched!
+33:706  0:000   - [change GFX0 to IGPU]: pattern 47465830, patched at: [ (1EE) (12) (12) (12) (12) (12) (12) (12) (12) (12) (12) (12) (12) (12) (12) (12) (12) (12) (12) (12) (16) (16) (12) (3AAB) (D1F0) (1B) (E8A) (A) (23A7) (14) (8917) (179F) (4594) (29A8) (18) (18) (32) (11) (65) (32) (55) ]
+33:706  0:000   - [change HDAS to HDEF]: pattern 48444153, patched at: [ (3F0) (12) (12) (A5E2) (162E) (84) (D) (2B) (32) (4F) (6F) (C3) (10BD0) (15FB) ]
+33:706  0:000   - [change HECI to IMEI]: pattern 48454349, patched at: [ (10B15) (C327) (1CB9) ]
+33:706  0:000   - [change MEI to IMEI]: pattern 4D45495F, bin not found / already patched!
+33:707  0:000   - [SAT0 to SATA]: pattern 53415430, patched at: [ (750) (322) (E) (E) (B88B) (30) (10924) (3F) (170C) (4F0) (20) (20) (20) (20) (20) (20) (20) (20) (20) (112) (29) (2E) (2E) (2E) (2E) (64B9) ]
+33:707  0:000   - [GLAN to GIGE]: pattern 474C414E, patched at: [ (AA15) (9F9) (8C) ]
+33:707  0:000   - [Fix bug SKL+]: pattern A00A9353, bin not found / already patched!
+33:707  0:000   - [change LPC to LPCB]: pattern 4C50435F, patched at: [ (AC6B) (8) (165FC) ]
+33:708  0:000    0 replacements
+33:709  0:001  found RTC Length not match, Maybe will cause CMOS reset, will patch it.
+33:709  0:000  found RTC had IRQNoFlag will move -3 bytes
+33:713  0:003  found PIC had IRQNoFlag will move -3 bytes
+33:714  0:001  Start HPET Fix
+33:717  0:003    indirect name=PNVB
+33:717  0:000  OperationRegion (THBA...) corrected from 0x0 to addr=0xFE200000
+33:717  0:000    indirect name=TPMM
+33:717  0:000    indirect name=FTPM
+33:717  0:000    indirect name=PPIM
+33:718  0:000    indirect name=SMBA
+33:718  0:000  OperationRegion (WWPR...) corrected from 0x0 to addr=0x8AB83000
+33:718  0:000  OperationRegion (WWPR...) corrected from 0x0 to addr=0x8AB83000
+33:718  0:000  OperationRegion (WWPR...) corrected from 0x0 to addr=0x8AB83000
+33:718  0:000  OperationRegion (WWPR...) corrected from 0x0 to addr=0x8AB83000
+33:718  0:000  OperationRegion (WWPR...) corrected from 0x0 to addr=0x8AB83000
+33:718  0:000  PreCleanup XSDT: count=25, length=236
+33:718  0:000  PreCleanup XSDT, corrected XSDT: count=25, length=236
+33:718  0:000  === [ ACPIPatchedAML ] ====================================
+33:718  0:000  AutoMerge pass 1
+33:718  0:000  Unsorted
+33:718  0:000  Inserting SSDT-EC.aml from EFI\CLOVER\ACPI\patched: ignore on pass 1
+33:718  0:000  Inserting SSDT-PNLF.aml from EFI\CLOVER\ACPI\patched: ignore on pass 1
+33:718  0:000  === [ ACPIDropTables ] ====================================
+33:718  0:000  Patching SSDT SataTabl Length=857
+33:718  0:000  0. [change OSID to XSID]: disabled
+33:718  0:000  1. [change _OSI to XOSI]: disabled
+33:718  0:000  2. [change _DSM to XDSM]: disabled
+33:718  0:000  3. [change EC0 to EC]: disabled
+33:718  0:000  4. [change H_EC to EC]: disabled
+33:718  0:000  5. [change ECDV to EC]: disabled
+33:718  0:000  6. [change AZAL to HDEF]: pattern 415A414C, bin not found / already patched!
+33:718  0:000  7. [change GFX0 to IGPU]: pattern 47465830, bin not found / already patched!
+33:718  0:000  8. [change HDAS to HDEF]: pattern 48444153, bin not found / already patched!
+33:718  0:000  9. [change HECI to IMEI]: pattern 48454349, bin not found / already patched!
+33:718  0:000  10. [change MEI to IMEI]: pattern 4D45495F, bin not found / already patched!
+33:718  0:000  11. [SAT0 to SATA]: pattern 53415430, patched at: [ (27) (E) (12) (12) (12) (12) (12) (AB) ]
+33:718  0:000  12. [GLAN to GIGE]: pattern 474C414E, bin not found / already patched!
+33:718  0:000  13. [Fix bug SKL+]: pattern A00A9353, bin not found / already patched!
+33:718  0:000  14. [change LPC to LPCB]: pattern 4C50435F, bin not found / already patched!
+33:718  0:000    0 replacements
+33:718  0:000  Patching SSDT SaSsdt  Length=4832
+33:718  0:000  0. [change OSID to XSID]: disabled
+33:718  0:000  1. [change _OSI to XOSI]: disabled
+33:718  0:000  2. [change _DSM to XDSM]: disabled
+33:718  0:000  3. [change EC0 to EC]: disabled
+33:718  0:000  4. [change H_EC to EC]: disabled
+33:718  0:000  5. [change ECDV to EC]: disabled
+33:718  0:000  6. [change AZAL to HDEF]: pattern 415A414C, bin not found / already patched!
+33:718  0:000  7. [change GFX0 to IGPU]: pattern 47465830, patched at: [ (2D) (42) (2B0) (871) (1D) (6E2) ]
+33:718  0:000  8. [change HDAS to HDEF]: pattern 48444153, bin not found / already patched!
+33:718  0:000  9. [change HECI to IMEI]: pattern 48454349, bin not found / already patched!
+33:718  0:000  10. [change MEI to IMEI]: pattern 4D45495F, bin not found / already patched!
+33:718  0:000  11. [SAT0 to SATA]: pattern 53415430, bin not found / already patched!
+33:718  0:000  12. [GLAN to GIGE]: pattern 474C414E, bin not found / already patched!
+33:718  0:000  13. [Fix bug SKL+]: pattern A00A9353, bin not found / already patched!
+33:718  0:000  14. [change LPC to LPCB]: pattern 4C50435F, bin not found / already patched!
+33:718  0:000    0 replacements
+33:718  0:000  Found OperationRegion(SANV, SystemMemory, 8AEA7898, ...)
+33:718  0:000  Patching SSDT xh_OEMBD Length=1888
+33:718  0:000  0. [change OSID to XSID]: disabled
+33:718  0:000  1. [change _OSI to XOSI]: disabled
+33:718  0:000  2. [change _DSM to XDSM]: disabled
+33:718  0:000  3. [change EC0 to EC]: disabled
+33:718  0:000  4. [change H_EC to EC]: disabled
+33:718  0:000  5. [change ECDV to EC]: disabled
+33:718  0:000  6. [change AZAL to HDEF]: pattern 415A414C, bin not found / already patched!
+33:718  0:000  7. [change GFX0 to IGPU]: pattern 47465830, bin not found / already patched!
+33:718  0:000  8. [change HDAS to HDEF]: pattern 48444153, bin not found / already patched!
+33:718  0:000  9. [change HECI to IMEI]: pattern 48454349, bin not found / already patched!
+33:718  0:000  10. [change MEI to IMEI]: pattern 4D45495F, bin not found / already patched!
+33:718  0:000  11. [SAT0 to SATA]: pattern 53415430, bin not found / already patched!
+33:718  0:000  12. [GLAN to GIGE]: pattern 474C414E, bin not found / already patched!
+33:718  0:000  13. [Fix bug SKL+]: pattern A00A9353, bin not found / already patched!
+33:718  0:000  14. [change LPC to LPCB]: pattern 4C50435F, bin not found / already patched!
+33:718  0:000    0 replacements
+33:718  0:000  Patching SSDT CpuSsdt Length=6062
+33:718  0:000  0. [change OSID to XSID]: disabled
+33:718  0:000  1. [change _OSI to XOSI]: disabled
+33:718  0:000  2. [change _DSM to XDSM]: disabled
+33:718  0:000  3. [change EC0 to EC]: disabled
+33:718  0:000  4. [change H_EC to EC]: disabled
+33:718  0:000  5. [change ECDV to EC]: disabled
+33:718  0:000  6. [change AZAL to HDEF]: pattern 415A414C, bin not found / already patched!
+33:718  0:000  7. [change GFX0 to IGPU]: pattern 47465830, bin not found / already patched!
+33:718  0:000  8. [change HDAS to HDEF]: pattern 48444153, bin not found / already patched!
+33:718  0:000  9. [change HECI to IMEI]: pattern 48454349, bin not found / already patched!
+33:718  0:000  10. [change MEI to IMEI]: pattern 4D45495F, bin not found / already patched!
+33:718  0:000  11. [SAT0 to SATA]: pattern 53415430, bin not found / already patched!
+33:718  0:000  12. [GLAN to GIGE]: pattern 474C414E, bin not found / already patched!
+33:718  0:000  13. [Fix bug SKL+]: pattern A00A9353, bin not found / already patched!
+33:718  0:000  14. [change LPC to LPCB]: pattern 4C50435F, bin not found / already patched!
+33:718  0:000    0 replacements
+33:718  0:000  Found OperationRegion(PNVS, SystemMemory, 79CB7000, ...)
+33:718  0:000  Patching SSDT HdaDsp Length=353
+33:718  0:000  0. [change OSID to XSID]: disabled
+33:718  0:000  1. [change _OSI to XOSI]: disabled
+33:718  0:000  2. [change _DSM to XDSM]: disabled
+33:718  0:000  3. [change EC0 to EC]: disabled
+33:718  0:000  4. [change H_EC to EC]: disabled
+33:718  0:000  5. [change ECDV to EC]: disabled
+33:718  0:000  6. [change AZAL to HDEF]: pattern 415A414C, bin not found / already patched!
+33:718  0:000  7. [change GFX0 to IGPU]: pattern 47465830, bin not found / already patched!
+33:718  0:000  8. [change HDAS to HDEF]: pattern 48444153, patched at: [ (20) (48) ]
+33:718  0:000  9. [change HECI to IMEI]: pattern 48454349, bin not found / already patched!
+33:718  0:000  10. [change MEI to IMEI]: pattern 4D45495F, bin not found / already patched!
+33:718  0:000  11. [SAT0 to SATA]: pattern 53415430, bin not found / already patched!
+33:718  0:000  12. [GLAN to GIGE]: pattern 474C414E, bin not found / already patched!
+33:718  0:000  13. [Fix bug SKL+]: pattern A00A9353, bin not found / already patched!
+33:718  0:000  14. [change LPC to LPCB]: pattern 4C50435F, bin not found / already patched!
+33:718  0:000    0 replacements
+33:718  0:000  Patching SSDT sensrhub Length=671
+33:718  0:000  0. [change OSID to XSID]: disabled
+33:718  0:000  1. [change _OSI to XOSI]: disabled
+33:718  0:000  2. [change _DSM to XDSM]: disabled
+33:718  0:000  3. [change EC0 to EC]: disabled
+33:718  0:000  4. [change H_EC to EC]: disabled
+33:718  0:000  5. [change ECDV to EC]: disabled
+33:718  0:000  6. [change AZAL to HDEF]: pattern 415A414C, bin not found / already patched!
+33:718  0:000  7. [change GFX0 to IGPU]: pattern 47465830, bin not found / already patched!
+33:718  0:000  8. [change HDAS to HDEF]: pattern 48444153, bin not found / already patched!
+33:718  0:000  9. [change HECI to IMEI]: pattern 48454349, bin not found / already patched!
+33:718  0:000  10. [change MEI to IMEI]: pattern 4D45495F, bin not found / already patched!
+33:718  0:000  11. [SAT0 to SATA]: pattern 53415430, bin not found / already patched!
+33:718  0:000  12. [GLAN to GIGE]: pattern 474C414E, bin not found / already patched!
+33:718  0:000  13. [Fix bug SKL+]: pattern A00A9353, bin not found / already patched!
+33:718  0:000  14. [change LPC to LPCB]: pattern 4C50435F, bin not found / already patched!
+33:718  0:000    0 replacements
+33:718  0:000  Patching SSDT PtidDevc Length=12290
+33:718  0:000  0. [change OSID to XSID]: disabled
+33:718  0:000  1. [change _OSI to XOSI]: disabled
+33:718  0:000  2. [change _DSM to XDSM]: disabled
+33:718  0:000  3. [change EC0 to EC]: disabled
+33:718  0:000  4. [change H_EC to EC]: disabled
+33:718  0:000  5. [change ECDV to EC]: disabled
+33:718  0:000  6. [change AZAL to HDEF]: pattern 415A414C, bin not found / already patched!
+33:718  0:000  7. [change GFX0 to IGPU]: pattern 47465830, bin not found / already patched!
+33:718  0:000  8. [change HDAS to HDEF]: pattern 48444153, bin not found / already patched!
+33:718  0:000  9. [change HECI to IMEI]: pattern 48454349, bin not found / already patched!
+33:718  0:000  10. [change MEI to IMEI]: pattern 4D45495F, bin not found / already patched!
+33:718  0:000  11. [SAT0 to SATA]: pattern 53415430, bin not found / already patched!
+33:718  0:000  12. [GLAN to GIGE]: pattern 474C414E, bin not found / already patched!
+33:718  0:000  13. [Fix bug SKL+]: pattern A00A9353, bin not found / already patched!
+33:718  0:000  14. [change LPC to LPCB]: pattern 4C50435F, bin not found / already patched!
+33:718  0:000    0 replacements
+33:719  0:000  Patching SSDT TbtTypeC Length=1303
+33:719  0:000  0. [change OSID to XSID]: disabled
+33:719  0:000  1. [change _OSI to XOSI]: disabled
+33:719  0:000  2. [change _DSM to XDSM]: disabled
+33:719  0:000  3. [change EC0 to EC]: disabled
+33:719  0:000  4. [change H_EC to EC]: disabled
+33:719  0:000  5. [change ECDV to EC]: disabled
+33:719  0:000  6. [change AZAL to HDEF]: pattern 415A414C, bin not found / already patched!
+33:719  0:000  7. [change GFX0 to IGPU]: pattern 47465830, bin not found / already patched!
+33:719  0:000  8. [change HDAS to HDEF]: pattern 48444153, bin not found / already patched!
+33:719  0:000  9. [change HECI to IMEI]: pattern 48454349, bin not found / already patched!
+33:719  0:000  10. [change MEI to IMEI]: pattern 4D45495F, bin not found / already patched!
+33:719  0:000  11. [SAT0 to SATA]: pattern 53415430, bin not found / already patched!
+33:719  0:000  12. [GLAN to GIGE]: pattern 474C414E, bin not found / already patched!
+33:719  0:000  13. [Fix bug SKL+]: pattern A00A9353, bin not found / already patched!
+33:719  0:000  14. [change LPC to LPCB]: pattern 4C50435F, bin not found / already patched!
+33:719  0:000    0 replacements
+33:719  0:000  Patching SSDT Wwan Length=745
+33:719  0:000  0. [change OSID to XSID]: disabled
+33:719  0:000  1. [change _OSI to XOSI]: disabled
+33:719  0:000  2. [change _DSM to XDSM]: disabled
+33:719  0:000  3. [change EC0 to EC]: disabled
+33:719  0:000  4. [change H_EC to EC]: disabled
+33:719  0:000  5. [change ECDV to EC]: disabled
+33:719  0:000  6. [change AZAL to HDEF]: pattern 415A414C, bin not found / already patched!
+33:719  0:000  7. [change GFX0 to IGPU]: pattern 47465830, bin not found / already patched!
+33:719  0:000  8. [change HDAS to HDEF]: pattern 48444153, bin not found / already patched!
+33:719  0:000  9. [change HECI to IMEI]: pattern 48454349, bin not found / already patched!
+33:719  0:000  10. [change MEI to IMEI]: pattern 4D45495F, bin not found / already patched!
+33:719  0:000  11. [SAT0 to SATA]: pattern 53415430, bin not found / already patched!
+33:719  0:000  12. [GLAN to GIGE]: pattern 474C414E, bin not found / already patched!
+33:719  0:000  13. [Fix bug SKL+]: pattern A00A9353, bin not found / already patched!
+33:719  0:000  14. [change LPC to LPCB]: pattern 4C50435F, bin not found / already patched!
+33:719  0:000    0 replacements
+33:719  0:000  Patching SSDT UsbCTabl Length=2013
+33:719  0:000  0. [change OSID to XSID]: disabled
+33:719  0:000  1. [change _OSI to XOSI]: disabled
+33:719  0:000  2. [change _DSM to XDSM]: disabled
+33:719  0:000  3. [change EC0 to EC]: disabled
+33:719  0:000  4. [change H_EC to EC]: disabled
+33:719  0:000  5. [change ECDV to EC]: disabled
+33:719  0:000  6. [change AZAL to HDEF]: pattern 415A414C, bin not found / already patched!
+33:719  0:000  7. [change GFX0 to IGPU]: pattern 47465830, bin not found / already patched!
+33:719  0:000  8. [change HDAS to HDEF]: pattern 48444153, bin not found / already patched!
+33:719  0:000  9. [change HECI to IMEI]: pattern 48454349, bin not found / already patched!
+33:719  0:000  10. [change MEI to IMEI]: pattern 4D45495F, bin not found / already patched!
+33:719  0:000  11. [SAT0 to SATA]: pattern 53415430, bin not found / already patched!
+33:719  0:000  12. [GLAN to GIGE]: pattern 474C414E, bin not found / already patched!
+33:719  0:000  13. [Fix bug SKL+]: pattern A00A9353, bin not found / already patched!
+33:719  0:000  14. [change LPC to LPCB]: pattern 4C50435F, bin not found / already patched!
+33:719  0:000    0 replacements
+33:719  0:000  Patching SSDT DptfTabl Length=32593
+33:719  0:000  0. [change OSID to XSID]: disabled
+33:719  0:000  1. [change _OSI to XOSI]: disabled
+33:719  0:000  2. [change _DSM to XDSM]: disabled
+33:719  0:000  3. [change EC0 to EC]: disabled
+33:719  0:000  4. [change H_EC to EC]: disabled
+33:719  0:000  5. [change ECDV to EC]: disabled
+33:719  0:000  6. [change AZAL to HDEF]: pattern 415A414C, bin not found / already patched!
+33:719  0:000  7. [change GFX0 to IGPU]: pattern 47465830, bin not found / already patched!
+33:719  0:000  8. [change HDAS to HDEF]: pattern 48444153, bin not found / already patched!
+33:719  0:000  9. [change HECI to IMEI]: pattern 48454349, bin not found / already patched!
+33:719  0:000  10. [change MEI to IMEI]: pattern 4D45495F, bin not found / already patched!
+33:719  0:000  11. [SAT0 to SATA]: pattern 53415430, bin not found / already patched!
+33:719  0:000  12. [GLAN to GIGE]: pattern 474C414E, bin not found / already patched!
+33:719  0:000  13. [Fix bug SKL+]: pattern A00A9353, bin not found / already patched!
+33:719  0:000  14. [change LPC to LPCB]: pattern 4C50435F, bin not found / already patched!
+33:719  0:000    0 replacements
+33:719  0:000  === [ ACPIPatchedAML ] ====================================
+33:719  0:000  AutoMerge pass 2
+33:719  0:000  Unsorted
+33:719  0:000  Inserting SSDT-EC.aml from EFI\CLOVER\ACPI\patched: size=63 ... Success
+33:732  0:012  Inserting SSDT-PNLF.aml from EFI\CLOVER\ACPI\patched: size=978 ... Success
+33:734  0:002  ApicCPUNum=1
+33:734  0:000  Maximum control=0x17
+33:734  0:000  P-States: min 0x4, max 0x17
+33:734  0:000  SSDT with plugin-type without P-States is generated
+33:734  0:000  Cleanup XSDT: count=28, length=260
+33:734  0:000  corrected XSDT count=28, length=260
+33:734  0:000  === [ RestSetup macOS ] ===================================
+33:734  0:000  EdidDiscovered size=128
+33:734  0:000  --- Discovered EDID Table size:128
+33:734  0:000  000  |  00  FF  FF  FF  FF  FF  FF  00  0D  AE
+33:734  0:000  010  |  C3  14  00  00  00  00  13  1A  01  04
+33:734  0:000  020  |  95  1F  11  78  02  7E  45  93  55  53
+33:734  0:000  030  |  94  28  23  50  54  00  00  00  01  01
+33:734  0:000  040  |  01  01  01  01  01  01  01  01  01  01
+33:734  0:000  050  |  01  01  01  01  DA  1D  56  E2  50  00
+33:734  0:000  060  |  20  30  44  2D  47  00  35  AD  10  00
+33:734  0:000  070  |  00  1A  E2  17  56  E2  50  00  20  30
+33:734  0:000  080  |  44  2D  47  00  35  AD  10  00  00  1A
+33:734  0:000  090  |  00  00  00  FE  00  33  37  56  30  46
+33:734  0:000  100  |  80  31  34  30  42  47  41  0A  00  00
+33:734  0:000  110  |  00  00  00  00  41  31  94  00  10  00
+33:734  0:000  120  |  00  09  01  0A  20  20  00  C3
+33:734  0:000  add device: PciRoot(0x0)/Pci(0x2,0x0)
+33:734  0:000     Add key=model valuelen=22
+33:734  0:000     Add key=hda-gfx valuelen=10
+33:734  0:000     Add key=framebuffer-unifiedmem valuelen=4
+33:734  0:000     Add key=framebuffer-stolenmem valuelen=4
+33:734  0:000     Add key=framebuffer-portcount valuelen=4
+33:734  0:000     Add key=framebuffer-pipecount valuelen=4
+33:734  0:000     Add key=framebuffer-patch-enable valuelen=4
+33:734  0:000     Add key=framebuffer-memorycount valuelen=4
+33:734  0:000     Add key=framebuffer-fbmem valuelen=4
+33:734  0:000     Add key=framebuffer-con1-enable valuelen=4
+33:734  0:000     Add key=framebuffer-con1-alldata valuelen=24
+33:734  0:000     Add key=enable-hdmi20 valuelen=4
+33:734  0:000     Add key=disable-external-gpu valuelen=4
+33:734  0:000     Add key=device_type valuelen=26
+33:734  0:000     Add key=device-id valuelen=4
+33:734  0:000     Add key=AAPL,slot-name valuelen=9
+33:734  0:000     Add key=AAPL,ig-platform-id valuelen=4
+33:734  0:000     Add key=AAPL,GfxYTile valuelen=4
+33:734  0:000  Intel GFX injection not set
+33:734  0:000   RCBA disabled; cannot use it
+33:734  0:000   setting specified layout-id=13 (0xD)
+33:735  0:000  stringlength = 3140
+33:735  0:000  CurrentMode: Width=1366 Height=768
+33:735  0:000  Beginning FSInjection
+FSInjectionInstall ...
+- Our FSI_SIMPLE_FILE_SYSTEM_PROTOCOL installed on handle: 8738F798
+FSInjectionInstall ...
+- Our FSI_SIMPLE_FILE_SYSTEM_PROTOCOL installed on handle: 8738F798
+33:743  0:008  Remap smbios table type 1 guid.
+33:754  0:011    Force kext: System\Library\Extensions\IONetworkingFamily.kext
+33:940  0:185      Force PlugIn kext: System\Library\Extensions\IONetworkingFamily.kext\Contents\PlugIns\AppleEthernetAquantiaAqtion.kext
+33:970  0:030      Force PlugIn kext: System\Library\Extensions\IONetworkingFamily.kext\Contents\PlugIns\AppleBCM5701Ethernet.kext
+33:993  0:023      Force PlugIn kext: System\Library\Extensions\IONetworkingFamily.kext\Contents\PlugIns\AppleIntelI210Ethernet.kext
+34:017  0:023      Force PlugIn kext: System\Library\Extensions\IONetworkingFamily.kext\Contents\PlugIns\Intel82574L.kext
+34:034  0:017      Force PlugIn kext: System\Library\Extensions\IONetworkingFamily.kext\Contents\PlugIns\IOEthernetAVBController.kext
+34:045  0:011      Force PlugIn kext: System\Library\Extensions\IONetworkingFamily.kext\Contents\PlugIns\AppleEthernetAquantiaAqtionFirmware.kext
+34:071  0:025      Force PlugIn kext: System\Library\Extensions\IONetworkingFamily.kext\Contents\PlugIns\AppleIntel8254XEthernet.kext
+34:086  0:015      Force PlugIn kext: System\Library\Extensions\IONetworkingFamily.kext\Contents\PlugIns\AppleVmxnet3Ethernet.kext
+34:103  0:017      Force PlugIn kext: System\Library\Extensions\IONetworkingFamily.kext\Contents\PlugIns\mDNSOffloadUserClient.kext
+34:115  0:011  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\Other
+34:115  0:000  ->Extra kext: EFI\CLOVER\kexts\Other\VoodooI2CHID.kext (v.1)
+34:164  0:049  ->Extra kext: EFI\CLOVER\kexts\Other\VoodooI2C.kext (v.2.2)
+34:214  0:049      |-- PlugIn kext: EFI\CLOVER\kexts\Other\VoodooI2C.kext\Contents\PlugIns\VoodooI2CServices.kext (v.1)
+34:229  0:014      |-- PlugIn kext: EFI\CLOVER\kexts\Other\VoodooI2C.kext\Contents\PlugIns\VoodooGPIO.kext (v.1.1)
+34:246  0:017  ->Extra kext: EFI\CLOVER\kexts\Other\USBInjectAll.kext (v.0.7.1)
+34:785  0:539  ->Extra kext: EFI\CLOVER\kexts\Other\RTCMemoryFixup.kext (v.1.0.4)
+34:801  0:015  ->Extra kext: EFI\CLOVER\kexts\Other\RealtekRTL8100.kext (v.2.0.1)
+34:833  0:032  ->Extra kext: EFI\CLOVER\kexts\Other\NoVPAJpeg.kext (v.1.0.0)
+34:848  0:014  ->Extra kext: EFI\CLOVER\kexts\Other\WhateverGreen.kext (v.1.3.6)
+34:935  0:086  ->Extra kext: EFI\CLOVER\kexts\Other\Lilu.kext (v.1.4.1)
+34:973  0:038  ->Extra kext: EFI\CLOVER\kexts\Other\GenericUSBXHCI.kext (v.1.2.11)
+34:997  0:024  ->Extra kext: EFI\CLOVER\kexts\Other\FakeSMC_SMMSensors.kext (v.1800)
+35:015  0:017  ->Extra kext: EFI\CLOVER\kexts\Other\FakeSMC_LPCSensors.kext (v.1800)
+35:241  0:225  ->Extra kext: EFI\CLOVER\kexts\Other\FakeSMC_GPUSensors.kext (v.1800)
+35:305  0:064  ->Extra kext: EFI\CLOVER\kexts\Other\FakeSMC_CPUSensors.kext (v.1800)
+35:329  0:023  ->Extra kext: EFI\CLOVER\kexts\Other\FakeSMC_ACPISensors.kext (v.1800)
+35:355  0:025  ->Extra kext: EFI\CLOVER\kexts\Other\FakeSMC.kext (v.1800)
+35:394  0:039  ->Extra kext: EFI\CLOVER\kexts\Other\EFICheckDisabler.kext (v.0.5)
+35:407  0:013  ->Extra kext: EFI\CLOVER\kexts\Other\CPUFriend.kext (v.1.2.0)
+35:432  0:025  ->Extra kext: EFI\CLOVER\kexts\Other\CodecCommander.kext (v.2.7.1)
+35:482  0:049  ->Extra kext: EFI\CLOVER\kexts\Other\BT4LEContinuityFixup.kext (v.1.1.4)
+35:498  0:016  ->Extra kext: EFI\CLOVER\kexts\Other\ApplePS2SmartTouchPad.kext (v.4.6.8)
+35:603  0:104      |-- PlugIn kext: EFI\CLOVER\kexts\Other\ApplePS2SmartTouchPad.kext\Contents\PlugIns\ApplePS2Keyboard.kext (v.4.6.8)
+35:649  0:045      |-- PlugIn kext: EFI\CLOVER\kexts\Other\ApplePS2SmartTouchPad.kext\Contents\PlugIns\ApplePS2Controller.kext (v.4.6.8)
+35:668  0:019  ->Extra kext: EFI\CLOVER\kexts\Other\AppleBacklightInjector.kext (v.0.9.0)
+35:680  0:011  ->Extra kext: EFI\CLOVER\kexts\Other\HibernationFixup.kext (v.1.3.2)
+35:710  0:029  ->Extra kext: EFI\CLOVER\kexts\Other\AppleALC.kext (v.1.4.5)
+36:954  1:244  ->Extra kext: EFI\CLOVER\kexts\Other\AHCIPortInjector.kext (v.1.0.1)
+37:224  0:269  ->Extra kext: EFI\CLOVER\kexts\Other\ACPIBatteryManager.kext (v.1.90.1)
+37:290  0:065  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\Off
+37:290  0:000  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\10
+37:290  0:000  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\10_normal
+37:290  0:000  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\10.15
+37:290  0:000  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\10.15_normal
+37:290  0:000  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\10.15.3
+37:290  0:000  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\10.15.3_normal
+37:297  0:006  SetStartupDiskVolume:
+37:297  0:000    * Volume: 'macOS'
+37:297  0:000    * LoaderPath: '<null string>'
+37:297  0:000    * DevPath: macOS
+37:297  0:000    * GUID = BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE
+37:309  0:012    * efi-boot-device: <array><dict><key>IOMatch</key><dict><key>IOProviderClass</key><string>IOMedia</string><key>IOPropertyMatch</key><dict><key>UUID</key><string>BE4358B2-F2E1-4CAC-BFBA-C71FE13991EE</string></dict></dict></dict></array>
+37:322  0:013  Custom boot screen not used because entry has unset use graphics
+37:324  0:001  Closing log
